@@ -39,6 +39,9 @@ public class SmoothMouseLook : MonoBehaviour
     private float dist;
     RaycastHit hit;
 
+    public LayerMask mirrorMask;
+    private Mirror hiddenMirror;
+
     void Update()
     {
         if (!player.isMirrored)
@@ -181,6 +184,8 @@ public class SmoothMouseLook : MonoBehaviour
             Quaternion yQuaternion = Quaternion.AngleAxis(rotAverageY, Vector3.left);
             transform.localRotation = originalRotation * yQuaternion;
         }
+
+        CheckIfMirrorBlockingView();
     }
 
     void LateUpdate()
@@ -194,6 +199,31 @@ public class SmoothMouseLook : MonoBehaviour
         if (rb)
             rb.freezeRotation = true;
         originalRotation = transform.localRotation;
+    }
+
+    public void CheckIfMirrorBlockingView()
+    {
+        RaycastHit hit1;
+        Vector3 dir = (player.transform.position - cam.transform.position).normalized;
+        float dst = Vector3.Distance(player.transform.position, cam.transform.position);
+        if (Physics.Raycast(cam.transform.position, dir, out hit1, dst, mirrorMask))
+        {
+            Mirror m = hit1.collider.GetComponent<Mirror>();
+            if (m)
+            {
+                m.isBlockingCamera = true;
+                hiddenMirror = m;
+            }
+        }
+        else
+        {
+            if (hiddenMirror)
+            {
+                hiddenMirror.isBlockingCamera = false;
+                hiddenMirror.ReactivatePortal();
+            }
+        }
+        Debug.DrawRay(cam.transform.position, dir * dist, Color.cyan);
     }
 
     public static float ClampAngle(float angle, float min, float max)

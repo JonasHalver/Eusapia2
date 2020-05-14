@@ -6,6 +6,15 @@ public class Mirror : MonoBehaviour
 {
     public static List<Mirror> mirrors = new List<Mirror>();
     public int mirrorIndex;
+
+    public enum World { Living, Dead }
+    public World currentWorld = World.Living;
+
+    public bool isPortal = false;
+    public bool canTeleport = true;
+
+    public GameObject player;
+
     public Mirror linkedMirror;
     public MeshRenderer screen;
     public Camera playerCam;
@@ -14,6 +23,9 @@ public class Mirror : MonoBehaviour
     private MirrorCameraController c;
     Vector3 playerToMirror;
     public Transform handler;
+    public bool isBlockingCamera = false;
+
+    Transform deadWorld, livingWorld;
 
     void Awake()
     { 
@@ -21,6 +33,9 @@ public class Mirror : MonoBehaviour
         {
             mirrors.Add(this);
         }
+
+        deadWorld = GameObject.FindGameObjectWithTag("DeadWorld").transform;
+        livingWorld = GameObject.FindGameObjectWithTag("LivingWorld").transform;
 
         screen = GetComponent<MeshRenderer>();
 
@@ -39,6 +54,20 @@ public class Mirror : MonoBehaviour
                 linkedMirror = mirrors[i];
                 break;
             }
+        }
+
+        if (isPortal)
+        {
+            switch (currentWorld)
+            {
+                case World.Living:
+                    player = PlayerController.player;
+                    break;
+                case World.Dead:
+                    player = MirrorManController.mirrorMan;
+                    break;
+            }
+            GetComponent<BoxCollider>().isTrigger = true;
         }
     }
 
@@ -94,7 +123,33 @@ public class Mirror : MonoBehaviour
         //mirrorCam.transform.SetPositionAndRotation(m.GetColumn(3), m.rotation);
 
         mirrorCam.Render();
-        screen.enabled = true;
+        if (!isBlockingCamera)
+            screen.enabled = true;
+
         linkedMirror.screen.material.SetInt("displayMask", 1);
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("TeleportTrigger"))
+        {
+            linkedMirror.canTeleport = false;
+            Vector3 positionHolder1 = player.transform.parent.position;
+            Vector3 positionHolder2 = player.transform.position;
+            
+            player.transform.parent.parent = player.transform.parent.parent == livingWorld ? deadWorld : livingWorld;
+            player.transform.parent.position = linkedMirror.player.transform.parent.position;
+            player.transform.position = linkedMirror.player.transform.position;
+
+            linkedMirror.player.transform.parent.parent = linkedMirror.player.transform.parent.parent == deadWorld ? livingWorld : deadWorld;
+            linkedMirror.player.transform.parent.position = positionHolder1;
+            linkedMirror.player.transform.position = positionHolder2;
+        }
+    }
+
+    public void ReactivatePortal()
+    {
+        if (!canTeleport)
+            canTeleport = true;
     }
 }

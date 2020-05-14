@@ -259,7 +259,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 339782581}
   m_LocalRotation: {x: -0, y: 0.70710576, z: -0, w: 0.70710784}
-  m_LocalPosition: {x: -3.1247418, y: 2, z: 4.4201093}
+  m_LocalPosition: {x: -3.1247418, y: -2.09, z: 4.4201093}
   m_LocalScale: {x: 20.47, y: 5, z: 1}
   m_Children: []
   m_Father: {fileID: 397879448}
@@ -335,8 +335,8 @@ GameObject:
   m_Component:
   - component: {fileID: 397879448}
   m_Layer: 0
-  m_Name: Test Area
-  m_TagString: Untagged
+  m_Name: LivingWorld
+  m_TagString: LivingWorld
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -388,7 +388,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 538049004}
   m_LocalRotation: {x: -0, y: 0.70710576, z: -0, w: 0.70710784}
-  m_LocalPosition: {x: 2.8752582, y: 2, z: 4.420155}
+  m_LocalPosition: {x: 2.8752582, y: -2.0900002, z: 4.420155}
   m_LocalScale: {x: 20.47, y: 5, z: 1}
   m_Children: []
   m_Father: {fileID: 397879448}
@@ -481,7 +481,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 553685081}
   m_LocalRotation: {x: -0, y: 0.70710576, z: -0, w: 0.70710784}
-  m_LocalPosition: {x: -3.1247418, y: 2, z: 4.4201093}
+  m_LocalPosition: {x: -3.1247418, y: -2.09, z: 4.4201093}
   m_LocalScale: {x: 20.47, y: 5, z: 1}
   m_Children: []
   m_Father: {fileID: 1875130686}
@@ -646,7 +646,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 840894850}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.12474173, y: 2, z: -5.579868}
+  m_LocalPosition: {x: -0.12474173, y: -2.0900002, z: -5.579868}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children: []
   m_Father: {fileID: 397879448}
@@ -802,7 +802,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1349304909}
   m_LocalRotation: {x: -0, y: 0.70710576, z: -0, w: 0.70710784}
-  m_LocalPosition: {x: 2.8752582, y: 2, z: 4.420155}
+  m_LocalPosition: {x: 2.8752582, y: -2.09, z: 4.420155}
   m_LocalScale: {x: 20.47, y: 5, z: 1}
   m_Children: []
   m_Father: {fileID: 1875130686}
@@ -895,7 +895,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1451390124}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.12474173, y: 2, z: -5.579868}
+  m_LocalPosition: {x: -0.12474173, y: -2.09, z: -5.579868}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children: []
   m_Father: {fileID: 1875130686}
@@ -1187,8 +1187,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1875130686}
   m_Layer: 0
-  m_Name: Test Area (1)
-  m_TagString: Untagged
+  m_Name: DeadWorld
+  m_TagString: DeadWorld
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1306,6 +1306,16 @@ PrefabInstance:
       propertyPath: linkedMirror
       value: 
       objectReference: {fileID: 1978494808}
+    - target: {fileID: 4209114239587161009, guid: 1365d3f62060393418c71151e214364d,
+        type: 3}
+      propertyPath: isPortal
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4209114239587161009, guid: 1365d3f62060393418c71151e214364d,
+        type: 3}
+      propertyPath: currentWorld
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4209114240851892250, guid: 1365d3f62060393418c71151e214364d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1410,6 +1420,11 @@ PrefabInstance:
       propertyPath: linkedMirror
       value: 
       objectReference: {fileID: 900229453}
+    - target: {fileID: 4209114239587161009, guid: 1365d3f62060393418c71151e214364d,
+        type: 3}
+      propertyPath: isPortal
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4209114240851892250, guid: 1365d3f62060393418c71151e214364d,
         type: 3}
       propertyPath: m_LocalPosition.x

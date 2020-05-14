@@ -260,3 +260,6 @@ MonoBehaviour:
   rotationY: 0
   rotAverageY: 0
   frameCounter: 20
+  mirrorMask:
+    serializedVersion: 2
+    m_Bits: 512

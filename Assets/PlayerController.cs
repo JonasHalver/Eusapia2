@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public static GameObject player;
     public Camera playerCam;
     Rigidbody rb;
     public float movementSpeed = 2;
@@ -22,6 +23,7 @@ public class PlayerController : MonoBehaviour
 
     void Awake()
     {
+        player = gameObject;
         rb = GetComponent<Rigidbody>();
         playerCam = Camera.main;
     }
