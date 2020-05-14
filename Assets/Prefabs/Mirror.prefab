@@ -253,6 +253,11 @@ PrefabInstance:
       propertyPath: handler
       value: 
       objectReference: {fileID: 4209114240851892250}
+    - target: {fileID: 2139892569593780621, guid: 1f4e17aed0b653143991bdbe687895d3,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2139892569593780623, guid: 1f4e17aed0b653143991bdbe687895d3,
         type: 3}
       propertyPath: m_Name
@@ -295,6 +300,11 @@ PrefabInstance:
       propertyPath: mirrorCam
       value: 
       objectReference: {fileID: 4209114239509039771}
+    - target: {fileID: 1557198864276669730, guid: 3db0306d50b499c43bdc3dc6dfc5e31a,
+        type: 3}
+      propertyPath: handler
+      value: 
+      objectReference: {fileID: 4209114240851892250}
     - target: {fileID: 1557198864276669731, guid: 3db0306d50b499c43bdc3dc6dfc5e31a,
         type: 3}
       propertyPath: m_LocalPosition.x

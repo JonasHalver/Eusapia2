@@ -248,7 +248,7 @@ MonoBehaviour:
   cam: {fileID: 8778981130307581417}
   player: {fileID: 0}
   axes: 0
-  sensitivityX: 2.5
+  sensitivityX: 4
   sensitivityY: 2.5
   minimumX: -360
   maximumX: 360
