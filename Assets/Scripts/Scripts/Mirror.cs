@@ -110,9 +110,19 @@ public class Mirror : MonoBehaviour
         handler.rotation = Quaternion.Euler(0, -linkedMirror.transform.localRotation.eulerAngles.y, 0);
     }
 
+    public bool VisibleFromCamera(Renderer renderer, Camera camera)
+    {
+        Plane[] frustrumPlanes = GeometryUtility.CalculateFrustumPlanes(camera);
+        return GeometryUtility.TestPlanesAABB(frustrumPlanes, renderer.bounds);
+    }
+
     public void Render()
     {
-        screen.enabled = false;
+        if (!VisibleFromCamera(linkedMirror.screen, playerCam))
+            return;
+
+        screen.enabled = false;        
+
         CreateViewTexture();
 
         mirrorCam.projectionMatrix = playerCam.projectionMatrix;
