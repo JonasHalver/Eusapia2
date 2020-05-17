@@ -1,11 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class Mirror : MonoBehaviour
 {
     public static List<Mirror> mirrors = new List<Mirror>();
     public int mirrorIndex;
+
+    public static Mirror portal1, portal2;
 
     public enum World { Living, Dead }
     public World currentWorld = World.Living;
@@ -27,8 +30,21 @@ public class Mirror : MonoBehaviour
 
     Transform deadWorld, livingWorld;
 
+    public event Action OnTeleport;
+
     void Awake()
     { 
+        if (isPortal)
+        {
+            if (currentWorld == World.Living)
+            {
+                portal1 = this;
+            }
+            else
+            {
+                portal2 = this;
+            }
+        }
         if (!mirrors.Contains(this))
         {
             mirrors.Add(this);
@@ -195,6 +211,7 @@ public class Mirror : MonoBehaviour
             linkedMirror.player.transform.parent.position = positionHolder1;
             linkedMirror.player.transform.position = positionHolder2;
             MirrorHandler.UsedPortal();
+            OnTeleport?.Invoke();
         }
     }
 
