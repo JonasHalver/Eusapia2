@@ -16,6 +16,8 @@ public class PlayerController : MonoBehaviour
     public bool isMirrored = false;
     public Vector3 camForward;
 
+    public Mirror.World currentWorld = Mirror.World.Living;
+
     public Vector3 PlayerInput
     {
         get { return new Vector3(Input.GetAxis("Horizontal") * (isMirrored ? -1 : 1), 0, Input.GetAxis("Vertical")); }

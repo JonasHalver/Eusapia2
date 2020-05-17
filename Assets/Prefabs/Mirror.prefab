@@ -292,11 +292,6 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1557198864276669730, guid: 3db0306d50b499c43bdc3dc6dfc5e31a,
         type: 3}
-      propertyPath: linkedMirror
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1557198864276669730, guid: 3db0306d50b499c43bdc3dc6dfc5e31a,
-        type: 3}
       propertyPath: mirrorCam
       value: 
       objectReference: {fileID: 4209114239509039771}
