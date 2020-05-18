@@ -31,6 +31,7 @@ public class Mirror : MonoBehaviour
     Transform deadWorld, livingWorld;
 
     public event Action OnTeleport;
+    public LayerMask mirrorMask;
 
     void Awake()
     { 
@@ -59,6 +60,15 @@ public class Mirror : MonoBehaviour
             playerCam = Camera.main;
 
         c = mirrorCam.GetComponent<MirrorCameraController>();
+
+        if (currentWorld == World.Living)
+        {
+            player = PlayerController.player;
+        }
+        else
+        {
+            player = MirrorManController.mirrorMan;
+        }
     }
 
     void Start()
@@ -92,20 +102,48 @@ public class Mirror : MonoBehaviour
             handler.localRotation = Quaternion.Euler(90, 180, 0);
         }
 
-        
+        PortalMovement.instance.onTeleportSuccess += TeleportSuccess;
     }
 
     void Update()
     {
         if (isBlockingCamera || PlayerIsInSameWorld())
         {
+            print("i am not visible because " + isBlockingCamera + " or " + PlayerIsInSameWorld());
             gameObject.layer = 10;
         }
         else
         {
+            print("i should be visible " + mirrorIndex);
             gameObject.layer = 9;
         }
         Render();
+        if (!screen.enabled && !isBlockingCamera)
+            screen.enabled = true;
+
+        if (isBlockingCamera)
+        {
+            ConfirmCameraBlock();
+        }
+    }
+
+    public void ConfirmCameraBlock()
+    {
+        RaycastHit hit1;
+        Vector3 dir = (PlayerController.player.transform.position - playerCam.transform.position).normalized;
+        float dst = Vector3.Distance(PlayerController.player.transform.position, playerCam.transform.position);
+        if (Physics.Raycast(playerCam.transform.position, dir, out hit1, dst, mirrorMask))
+        {
+            Mirror m = hit1.collider.GetComponent<Mirror>();
+            if (m && m == this)
+            {
+                isBlockingCamera = true;
+            }
+        }
+        else
+        {
+            isBlockingCamera = false;
+        }
     }
 
     void CreateViewTexture()
@@ -194,9 +232,10 @@ public class Mirror : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("TeleportTrigger"))
+        if (other.CompareTag("TeleportTrigger") && canTeleport)
         {
             linkedMirror.canTeleport = false;
+            canTeleport = false;
             Vector3 positionHolder1 = player.transform.parent.position;
             Vector3 positionHolder2 = player.transform.position;
             
@@ -204,15 +243,24 @@ public class Mirror : MonoBehaviour
             player.transform.parent.position = linkedMirror.player.transform.parent.position;
             player.transform.position = linkedMirror.player.transform.position;
 
-            if(player.GetComponent<PlayerController>())
+            if (player.GetComponent<PlayerController>())
                 player.GetComponent<PlayerController>().currentWorld = player.GetComponent<PlayerController>().currentWorld == World.Living ? World.Dead : World.Living;
+            else if (player.GetComponent<MirrorManController>())
+                player.GetComponent<MirrorManController>().currentWorld = player.GetComponent<MirrorManController>().currentWorld == World.Dead ? World.Living : World.Dead;
 
             linkedMirror.player.transform.parent.parent = linkedMirror.player.transform.parent.parent == deadWorld ? livingWorld : deadWorld;
             linkedMirror.player.transform.parent.position = positionHolder1;
             linkedMirror.player.transform.position = positionHolder2;
+            linkedMirror.isBlockingCamera = true;
             MirrorHandler.UsedPortal();
             OnTeleport?.Invoke();
         }
+    }
+
+    public void TeleportSuccess()
+    {
+        linkedMirror.canTeleport = true;
+        canTeleport = true;
     }
 
     public void ReactivatePortal()

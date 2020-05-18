@@ -117,9 +117,6 @@ MonoBehaviour:
   mirrorCam: {fileID: 0}
   handler: {fileID: 0}
   isBlockingCamera: 0
-  hidden:
+  mirrorMask:
     serializedVersion: 2
-    m_Bits: 1024
-  mirror:
-    serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 1536
