@@ -46,6 +46,8 @@ public class SmoothMouseLook : MonoBehaviour
     public bool lookatOverride = false;
     public Transform lookatTransform;
 
+    public static bool portalOverride = false;
+
     void Awake()
     {
         if (!cameraControllerInstance)
@@ -67,7 +69,7 @@ public class SmoothMouseLook : MonoBehaviour
             dist = Vector3.Distance(cam.transform.position, hit.point);
         }
 
-        if (!lookatOverride)
+        if (!lookatOverride && !portalOverride)
         {
             if (axes == RotationAxes.MouseXAndY)
             {
@@ -218,6 +220,12 @@ public class SmoothMouseLook : MonoBehaviour
             //cam.transform.localRotation = Quaternion.Euler(Vector3.zero);
             cam.transform.localRotation = Quaternion.RotateTowards(cam.transform.localRotation, Quaternion.Euler(0, 0, 0), 15 * Time.deltaTime);
         }
+
+        if (portalOverride)
+        {
+            cam.transform.localPosition = new Vector3(cam.transform.localPosition.x, Mathf.Lerp(1.5f, 0.75f, PortalMovement.curveT / 2), Mathf.Lerp(-5, -1, PortalMovement.curveT / 2));
+            transform.localRotation = player.transform.localRotation;
+        }
     }
 
     void Start()
@@ -250,7 +258,6 @@ public class SmoothMouseLook : MonoBehaviour
                 hiddenMirror.ReactivatePortal();
             }
         }
-        //Debug.DrawRay(cam.transform.position, dir * dist, Color.cyan);
     }
 
     public static float ClampAngle(float angle, float min, float max)
