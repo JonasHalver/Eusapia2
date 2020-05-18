@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Ground
+  m_Name: Branch
   m_Shader: {fileID: 4800000, guid: 7252379db4c18b641b517f2c91bb57e1, type: 3}
   m_ShaderKeywords: _DISABLE_SSR _GLOSSYREFLECTIONS_OFF _NORMALMAP_TANGENT_SPACE
     _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
@@ -371,7 +371,7 @@ Material:
     - _BaseColor: {r: 0.15632069, g: 1, b: 0, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
     - _COAT_COLOR: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 0.085830554, g: 0.5471698, b: 0, a: 1}
+    - _Color: {r: 0.38679248, g: 0.20854595, b: 0.03831435, a: 1}
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EMISSION_COLOR: {r: 0, g: 0, b: 0, a: 0}
