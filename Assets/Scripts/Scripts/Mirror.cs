@@ -1,11 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class Mirror : MonoBehaviour
 {
     public static List<Mirror> mirrors = new List<Mirror>();
     public int mirrorIndex;
+
+    public static Mirror portal1, portal2;
 
     public enum World { Living, Dead }
     public World currentWorld = World.Living;
@@ -27,8 +30,21 @@ public class Mirror : MonoBehaviour
 
     Transform deadWorld, livingWorld;
 
+    public event Action OnTeleport;
+
     void Awake()
     { 
+        if (isPortal)
+        {
+            if (currentWorld == World.Living)
+            {
+                portal1 = this;
+            }
+            else
+            {
+                portal2 = this;
+            }
+        }
         if (!mirrors.Contains(this))
         {
             mirrors.Add(this);
@@ -52,6 +68,10 @@ public class Mirror : MonoBehaviour
             if (mirrors[i] != this && mirrors[i].mirrorIndex == mirrorIndex)
             {
                 linkedMirror = mirrors[i];
+                if (currentWorld == World.Living)
+                {
+                    MirrorHandler.mirrorPairs.Add(this, linkedMirror);
+                }                
                 break;
             }
         }
@@ -68,11 +88,23 @@ public class Mirror : MonoBehaviour
                     break;
             }
             GetComponent<BoxCollider>().isTrigger = true;
+            handler.localScale = new Vector3(1, 1, 1);
+            handler.localRotation = Quaternion.Euler(90, 180, 0);
         }
+
+        
     }
 
     void Update()
     {
+        if (isBlockingCamera || PlayerIsInSameWorld())
+        {
+            gameObject.layer = 10;
+        }
+        else
+        {
+            gameObject.layer = 9;
+        }
         Render();
     }
 
@@ -92,22 +124,43 @@ public class Mirror : MonoBehaviour
         }
     }
 
-    void OnPreCull()
+    public bool PlayerIsInSameWorld()
     {
-        Render();
+        PlayerController pc = PlayerController.player.GetComponent<PlayerController>();
+        if (pc)
+        {
+            return pc.currentWorld == linkedMirror.currentWorld;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+    void OnValidate()
+    {
+        //handler.rotation = Quaternion.Euler(-linkedMirror.handler.localRotation.eulerAngles.x, -linkedMirror.handler.localRotation.eulerAngles.y, 0);
     }
 
     public void Move()
     {
-        mirrorCam.transform.localRotation = Quaternion.Euler(
-            new Vector3(playerCam.transform.rotation.eulerAngles.x,
-            playerCam.transform.rotation.eulerAngles.y,
-            playerCam.transform.rotation.eulerAngles.z));
+        if (!isPortal)
+        {
+            mirrorCam.transform.localRotation = Quaternion.Euler(
+                new Vector3(playerCam.transform.rotation.eulerAngles.x,
+                playerCam.transform.rotation.eulerAngles.y,
+                playerCam.transform.rotation.eulerAngles.z));
 
-        playerToMirror = (playerCam.transform.position - linkedMirror.transform.position);
-        mirrorCam.transform.localPosition = playerToMirror;
-
-        handler.rotation = Quaternion.Euler(0, -linkedMirror.transform.localRotation.eulerAngles.y, 0);
+            playerToMirror = (playerCam.transform.position - linkedMirror.transform.position);
+            mirrorCam.transform.localPosition = playerToMirror;
+        }
+        else
+        {
+            Vector3 playerCamLookDir = playerCam.transform.forward;
+            mirrorCam.transform.rotation = Quaternion.LookRotation(Vector3.Scale(playerCamLookDir, new Vector3(1, -1, -1)), Vector3.down);
+            playerToMirror = (Vector3.Scale(playerCam.transform.position, new Vector3(-1,1,1)) - linkedMirror.transform.position);
+            mirrorCam.transform.localPosition = Quaternion.AngleAxis(-90, linkedMirror.transform.right) * playerToMirror;
+        }
     }
 
     public bool VisibleFromCamera(Renderer renderer, Camera camera)
@@ -118,7 +171,7 @@ public class Mirror : MonoBehaviour
 
     public void Render()
     {
-        if (!VisibleFromCamera(linkedMirror.screen, playerCam))
+        if (!VisibleFromCamera(linkedMirror.screen, playerCam) || !PlayerIsInSameWorld())
             return;
 
         screen.enabled = false;        
@@ -151,9 +204,14 @@ public class Mirror : MonoBehaviour
             player.transform.parent.position = linkedMirror.player.transform.parent.position;
             player.transform.position = linkedMirror.player.transform.position;
 
+            if(player.GetComponent<PlayerController>())
+                player.GetComponent<PlayerController>().currentWorld = player.GetComponent<PlayerController>().currentWorld == World.Living ? World.Dead : World.Living;
+
             linkedMirror.player.transform.parent.parent = linkedMirror.player.transform.parent.parent == deadWorld ? livingWorld : deadWorld;
             linkedMirror.player.transform.parent.position = positionHolder1;
             linkedMirror.player.transform.position = positionHolder2;
+            MirrorHandler.UsedPortal();
+            OnTeleport?.Invoke();
         }
     }
 
