@@ -109,12 +109,10 @@ public class Mirror : MonoBehaviour
     {
         if (isBlockingCamera || PlayerIsInSameWorld())
         {
-            print("i am not visible because " + isBlockingCamera + " or " + PlayerIsInSameWorld());
             gameObject.layer = 10;
         }
         else
         {
-            print("i should be visible " + mirrorIndex);
             gameObject.layer = 9;
         }
         Render();
