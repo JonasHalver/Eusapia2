@@ -6,6 +6,7 @@ public class MirrorManController : MonoBehaviour
 {
     public PlayerController player;
     public static GameObject mirrorMan;
+    public Mirror.World currentWorld = Mirror.World.Dead;
 
     void Awake()
     {

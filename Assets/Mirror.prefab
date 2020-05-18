@@ -108,11 +108,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mirrorIndex: 0
   currentWorld: 0
-  isPortal: 0
+  isPortal: 1
+  canTeleport: 1
   player: {fileID: 0}
-  linkedMirror: {fileID: 0}
+  linkedMirror: {fileID: 1557198864276669730}
   screen: {fileID: 1557198864276669728}
   playerCam: {fileID: 0}
   mirrorCam: {fileID: 0}
   handler: {fileID: 0}
   isBlockingCamera: 0
+  mirrorMask:
+    serializedVersion: 2
+    m_Bits: 1536
