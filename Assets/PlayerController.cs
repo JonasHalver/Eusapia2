@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public static GameObject player;
+    public Animator anim;
     public Camera playerCam;
     Rigidbody rb;
     public float movementSpeed = 2;
@@ -18,9 +19,9 @@ public class PlayerController : MonoBehaviour
 
     public Mirror.World currentWorld = Mirror.World.Living;
 
-    public Vector3 PlayerInput
+    public static Vector3 PlayerInput
     {
-        get { return new Vector3(Input.GetAxis("Horizontal") * (isMirrored ? -1 : 1), 0, Input.GetAxis("Vertical")); }
+        get { return new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")); }
     }
 
     void Awake()
@@ -28,6 +29,7 @@ public class PlayerController : MonoBehaviour
         player = gameObject;
         rb = GetComponent<Rigidbody>();
         playerCam = Camera.main;
+        anim = GetComponentInChildren<Animator>();
     }
 
     // Start is called before the first frame update
@@ -48,6 +50,8 @@ public class PlayerController : MonoBehaviour
 
             if (PlayerInput != Vector3.zero)
                 transform.LookAt(rb.position + camForward * (isMirrored ? -1 : 1) * PlayerInput.z);
+
+            anim.SetFloat("walking", PlayerInput.magnitude);
         }
     }
 }

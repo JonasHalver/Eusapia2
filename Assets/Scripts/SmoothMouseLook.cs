@@ -60,7 +60,7 @@ public class SmoothMouseLook : MonoBehaviour
         {
             Vector3 resetPos = transform.TransformPoint(new Vector3(0, cam.transform.localPosition.y, cam.transform.localPosition.z));
             Vector3 fakePoint = new Vector3(resetPos.x, player.transform.position.y, resetPos.z);
-            player.camForward = transform.forward; //(player.transform.position - fakePoint).normalized;
+            player.camForward = Vector3.Scale(transform.forward, new Vector3(1,0,1)); //(player.transform.position - fakePoint).normalized;
             //Debug.DrawLine(player.transform.position, player.transform.position + transform.forward * 3, Color.red);
         }
 
@@ -125,19 +125,19 @@ public class SmoothMouseLook : MonoBehaviour
                             float p = Mathf.Clamp((rotAverageY - y) / (60 - y), 0, 0.35f);
                             if (p < 0)
                             {
-                                cam.transform.localPosition = new Vector3(1, cam.transform.localPosition.y, -maximumCameraDistance);
+                                cam.transform.localPosition = new Vector3(0.75f, cam.transform.localPosition.y, -maximumCameraDistance);
                                 y = 0;
                                 sliding = false;
                             }
                             else
                             {
                                 //print(p);
-                                cam.transform.localPosition = new Vector3(1, cam.transform.localPosition.y, Mathf.Lerp(-maximumCameraDistance, -minimumCameraDistance, p * 2.5f));
+                                cam.transform.localPosition = new Vector3(0.75f, cam.transform.localPosition.y, Mathf.Lerp(-maximumCameraDistance, -minimumCameraDistance, p * 2.5f));
                             }
                         }
                         else
                         {
-                            cam.transform.localPosition = new Vector3(1, cam.transform.localPosition.y, -maximumCameraDistance);
+                            cam.transform.localPosition = new Vector3(0.75f, cam.transform.localPosition.y, -maximumCameraDistance);
                             y = 0;
                             sliding = false;
                         }
@@ -223,7 +223,7 @@ public class SmoothMouseLook : MonoBehaviour
 
         if (portalOverride)
         {
-            cam.transform.localPosition = new Vector3(cam.transform.localPosition.x, Mathf.Lerp(1.5f, 0.75f, PortalMovement.curveT / 2), Mathf.Lerp(-5, -1, PortalMovement.curveT / 2));
+            cam.transform.localPosition = new Vector3(cam.transform.localPosition.x, Mathf.Lerp(0.75f, 0.5f, PortalMovement.curveT / 2), Mathf.Lerp(-2.5f, -1, PortalMovement.curveT / 2));
             transform.localRotation = player.transform.localRotation;
         }
     }
