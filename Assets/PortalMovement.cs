@@ -18,6 +18,7 @@ public class PortalMovement : MonoBehaviour
     public Quaternion rotHolder;
     public float totalRot = 0;
 
+    public bool portalsPlaced = false;
     public event Action onTeleportSuccess;
 
     void Awake()
@@ -29,8 +30,12 @@ public class PortalMovement : MonoBehaviour
     void Start()
     {
         pc = PlayerController.player.GetComponent<PlayerController>();
-        Mirror.portal1.OnTeleport += TeleportSuccess;
-        Mirror.portal2.OnTeleport += TeleportSuccess;
+
+        if (portalsPlaced)
+        {
+            Mirror.portal1.OnTeleport += TeleportSuccess;
+            Mirror.portal2.OnTeleport += TeleportSuccess;
+        }
     }
 
     // Update is called once per frame
