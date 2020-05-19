@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Tree
+  m_Name: Hanging Sheet 1
   m_Shader: {fileID: 4800000, guid: 6e4ae4064600d784cac1e41a9e6f2e59, type: 3}
   m_ShaderKeywords: _DISABLE_SSR _GLOSSYREFLECTIONS_OFF _NORMALMAP_TANGENT_SPACE
     _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
@@ -48,7 +48,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseColorMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 2fa7f0130fa66cc408bbc659ff2ef571, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -124,7 +124,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 2fa7f0130fa66cc408bbc659ff2ef571, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskMap:
@@ -368,10 +368,10 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BASE_COLOR: {r: 1, g: 1, b: 1, a: 0}
-    - _BaseColor: {r: 0.4826097, g: 0.5660378, b: 0.22160912, a: 1}
+    - _BaseColor: {r: 0.6431373, g: 0.6431373, b: 0.6431373, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
     - _COAT_COLOR: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 0.48260963, g: 0.5660378, b: 0.22160909, a: 1}
+    - _Color: {r: 0.6431373, g: 0.6431373, b: 0.6431373, a: 1}
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EMISSION_COLOR: {r: 0, g: 0, b: 0, a: 0}
