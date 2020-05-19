@@ -33,6 +33,8 @@ public class Mirror : MonoBehaviour
     public event Action OnTeleport;
     public LayerMask mirrorMask;
 
+    List<Renderer> hiddenRenderers = new List<Renderer>();
+
     void Awake()
     { 
         if (isPortal)
@@ -105,7 +107,7 @@ public class Mirror : MonoBehaviour
         PortalMovement.instance.onTeleportSuccess += TeleportSuccess;
     }
 
-    void Update()
+    void LateUpdate()
     {
         if (isBlockingCamera || PlayerIsInSameWorld())
         {
@@ -141,6 +143,38 @@ public class Mirror : MonoBehaviour
         else
         {
             isBlockingCamera = false;
+        }
+    }
+
+    public void HideObjectsBlockingCamera()
+    {
+        List<Renderer> nearbyRenderers = new List<Renderer>();
+        Collider[] nearbyColliders = Physics.OverlapSphere(mirrorCam.transform.position, Vector3.Distance(mirrorCam.transform.position, transform.position));
+        foreach(Collider c in nearbyColliders)
+        {
+            Renderer r = c.transform.GetComponent<Renderer>();
+            if (r)
+            {
+                nearbyRenderers.Add(r);
+            }
+        }
+        for(int i = 0; i < nearbyRenderers.Count; i++)
+        {
+            if (VisibleFromCamera(nearbyRenderers[i], mirrorCam) && nearbyRenderers[i].transform.CompareTag("Building"))
+            {
+                nearbyRenderers[i].gameObject.layer = 11;
+                hiddenRenderers.Add(nearbyRenderers[i]);
+            }
+        }
+
+        for (int i = 0; i < hiddenRenderers.Count; i++)
+        {
+            if (!nearbyRenderers.Contains(hiddenRenderers[i]) || !VisibleFromCamera(hiddenRenderers[i], mirrorCam))
+            {
+                hiddenRenderers[i].gameObject.layer = 0;
+                hiddenRenderers.RemoveAt(i);
+                i--;
+            }
         }
     }
 
@@ -220,6 +254,8 @@ public class Mirror : MonoBehaviour
         //c.Move();
         Move();
         //mirrorCam.transform.SetPositionAndRotation(m.GetColumn(3), m.rotation);
+
+        //HideObjectsBlockingCamera();
 
         mirrorCam.Render();
         if (!isBlockingCamera)
