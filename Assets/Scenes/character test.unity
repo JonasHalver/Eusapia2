@@ -266,6 +266,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1139628520742990553, guid: 392c47045ac4d79458bd209e7f6da4e2,
+        type: 3}
+      propertyPath: m_Swing2Limit.limit
+      value: 20.91695
+      objectReference: {fileID: 0}
+    - target: {fileID: 1139628521498137088, guid: 392c47045ac4d79458bd209e7f6da4e2,
+        type: 3}
+      propertyPath: m_Swing2Limit.limit
+      value: 8.71523
+      objectReference: {fileID: 0}
+    - target: {fileID: 1139628521633292320, guid: 392c47045ac4d79458bd209e7f6da4e2,
+        type: 3}
+      propertyPath: m_Swing2Limit.limit
+      value: 16.848566
+      objectReference: {fileID: 0}
     - target: {fileID: 5380238962684333537, guid: 392c47045ac4d79458bd209e7f6da4e2,
         type: 3}
       propertyPath: m_LocalPosition.x
