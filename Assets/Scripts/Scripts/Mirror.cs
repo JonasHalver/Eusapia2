@@ -222,6 +222,7 @@ public class Mirror : MonoBehaviour
                 playerCam.transform.rotation.eulerAngles.z));
 
             playerToMirror = (playerCam.transform.position - linkedMirror.transform.position);
+
             mirrorCam.transform.localPosition = playerToMirror;
         }
         else
