@@ -44,7 +44,7 @@ public class CableProceduralSimple : MonoBehaviour
 			return;
 		}
 
-        Draw();
+
     }
 	
 
@@ -52,7 +52,7 @@ public class CableProceduralSimple : MonoBehaviour
 	void Update () 
 	{
 
-
+        Draw();
         // Get direction Vector.
         vectorFromStartToEnd = endPointTransform.position - transform.position;
         // Setting the Start object to look at the end will be used for making the wind be perpendicular to the cable later.
