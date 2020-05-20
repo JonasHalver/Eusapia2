@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_Clockshop_Area11
+  m_Name: Clocks
   m_Shader: {fileID: -6465566751694194690, guid: db3498254d7d2b44bb8679b3ab1abef2,
     type: 3}
   m_ShaderKeywords: 
@@ -234,9 +234,9 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - Color_31A45CC8: {r: 0, g: 0, b: 0, a: 0}
-    - Color_3E01F68D: {r: 0.54065406, g: 0.6698113, b: 0.48340157, a: 0}
-    - Color_6B35025A: {r: 0.764151, g: 0.6981846, b: 0.6596209, a: 0}
-    - Color_FB42EA15: {r: 0.78431374, g: 0.62352943, b: 0.34901962, a: 0}
+    - Color_3E01F68D: {r: 0.8396226, g: 0.58595, b: 0.43169275, a: 0}
+    - Color_6B35025A: {r: 0.48235294, g: 0.6862745, b: 0.6862745, a: 0}
+    - Color_FB42EA15: {r: 0.7169812, g: 0.59589964, b: 0.47686014, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
@@ -253,7 +253,7 @@ Material:
     - _UVDetailsMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMaskEmissive: {r: 1, g: 0, b: 0, a: 0}
---- !u!114 &2155218479440791240
+--- !u!114 &8391619479214208548
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
