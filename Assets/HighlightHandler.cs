@@ -5,6 +5,7 @@ using UnityEngine;
 public class HighlightHandler : MonoBehaviour
 {
     public Transform lookatObj;
+    public float lookatZoom = 1;
 
     void OnValidate()
     {
@@ -23,6 +24,7 @@ public class HighlightHandler : MonoBehaviour
         {
             SmoothMouseLook.cameraControllerInstance.lookatOverride = true;
             SmoothMouseLook.cameraControllerInstance.lookatTransform = lookatObj;
+            SmoothMouseLook.cameraControllerInstance.lookatZoom = lookatZoom;
         }
     }
 

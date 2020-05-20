@@ -45,6 +45,7 @@ public class SmoothMouseLook : MonoBehaviour
 
     public bool lookatOverride = false;
     public Transform lookatTransform;
+    public float lookatZoom;
 
     public static bool portalOverride = false;
 
@@ -125,7 +126,7 @@ public class SmoothMouseLook : MonoBehaviour
                             float p = Mathf.Clamp((rotAverageY - y) / (60 - y), 0, 0.35f);
                             if (p < 0)
                             {
-                                cam.transform.localPosition = new Vector3(0.75f, cam.transform.localPosition.y, -maximumCameraDistance);
+                                cam.transform.localPosition = new Vector3(0.75f, cam.transform.localPosition.y, lookatOverride ? -lookatZoom : -maximumCameraDistance);
                                 y = 0;
                                 sliding = false;
                             }
@@ -137,7 +138,7 @@ public class SmoothMouseLook : MonoBehaviour
                         }
                         else
                         {
-                            cam.transform.localPosition = new Vector3(0.75f, cam.transform.localPosition.y, -maximumCameraDistance);
+                            cam.transform.localPosition = new Vector3(0.75f, cam.transform.localPosition.y, lookatOverride ? -lookatZoom : -maximumCameraDistance);
                             y = 0;
                             sliding = false;
                         }
@@ -145,7 +146,7 @@ public class SmoothMouseLook : MonoBehaviour
                 }
                 else
                 {
-                    cam.transform.localPosition = new Vector3(1, cam.transform.localPosition.y, -maximumCameraDistance);
+                    cam.transform.localPosition = new Vector3(1, cam.transform.localPosition.y, lookatOverride ? -lookatZoom : -maximumCameraDistance);
                     y = 0;
                     sliding = false;
                 }
