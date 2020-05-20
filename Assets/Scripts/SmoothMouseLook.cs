@@ -70,6 +70,17 @@ public class SmoothMouseLook : MonoBehaviour
             dist = Vector3.Distance(cam.transform.position, hit.point);
         }
 
+        if (lookatOverride)
+        {
+            print(dist);
+            float y = cam.transform.localPosition.y;
+            if (dist < 1.1f)
+            {
+                y += 2 * Time.deltaTime;
+            }
+            cam.transform.localPosition = new Vector3(0.75f, y, Mathf.Lerp(cam.transform.localPosition.z, -lookatZoom, 2 * Time.deltaTime));
+        }
+
         if (!lookatOverride && !portalOverride)
         {
             if (axes == RotationAxes.MouseXAndY)
@@ -126,19 +137,19 @@ public class SmoothMouseLook : MonoBehaviour
                             float p = Mathf.Clamp((rotAverageY - y) / (60 - y), 0, 0.35f);
                             if (p < 0)
                             {
-                                cam.transform.localPosition = new Vector3(0.75f, cam.transform.localPosition.y, lookatOverride ? -lookatZoom : -maximumCameraDistance);
+                                cam.transform.localPosition = new Vector3(0.75f, Mathf.Lerp(cam.transform.localPosition.y, 0.75f, 2*Time.deltaTime), Mathf.Lerp(cam.transform.localPosition.z, -maximumCameraDistance, 2 * Time.deltaTime));
                                 y = 0;
                                 sliding = false;
                             }
                             else
                             {
                                 //print(p);
-                                cam.transform.localPosition = new Vector3(0.75f, cam.transform.localPosition.y, Mathf.Lerp(-maximumCameraDistance, -minimumCameraDistance, p * 2.5f));
+                                cam.transform.localPosition = new Vector3(0.75f, Mathf.Lerp(cam.transform.localPosition.y, 0.75f, 2 * Time.deltaTime), Mathf.Lerp(-maximumCameraDistance, -minimumCameraDistance, p * 2.5f));
                             }
                         }
                         else
                         {
-                            cam.transform.localPosition = new Vector3(0.75f, cam.transform.localPosition.y, lookatOverride ? -lookatZoom : -maximumCameraDistance);
+                            cam.transform.localPosition = new Vector3(0.75f, Mathf.Lerp(cam.transform.localPosition.y, 0.75f, 2 * Time.deltaTime), Mathf.Lerp(cam.transform.localPosition.z, -maximumCameraDistance, 2 * Time.deltaTime));
                             y = 0;
                             sliding = false;
                         }
@@ -146,7 +157,7 @@ public class SmoothMouseLook : MonoBehaviour
                 }
                 else
                 {
-                    cam.transform.localPosition = new Vector3(1, cam.transform.localPosition.y, lookatOverride ? -lookatZoom : -maximumCameraDistance);
+                    cam.transform.localPosition = new Vector3(0.75f, Mathf.Lerp(cam.transform.localPosition.y, 0.75f, 2 * Time.deltaTime), Mathf.Lerp(cam.transform.localPosition.z, -maximumCameraDistance, 2 * Time.deltaTime));
                     y = 0;
                     sliding = false;
                 }
