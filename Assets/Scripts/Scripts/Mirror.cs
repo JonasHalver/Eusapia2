@@ -228,8 +228,8 @@ public class Mirror : MonoBehaviour
         else
         {
             Vector3 playerCamLookDir = playerCam.transform.forward;
-            mirrorCam.transform.rotation = Quaternion.LookRotation(Vector3.Scale(playerCamLookDir, new Vector3(-1, -1, 1)), Vector3.down);
-            playerToMirror = Vector3.Scale((playerCam.transform.position - linkedMirror.transform.position), new Vector3(-1,1,1));
+            mirrorCam.transform.rotation = Quaternion.LookRotation(Vector3.Scale(playerCamLookDir, new Vector3(1, -1, -1)), Vector3.down);
+            playerToMirror = (Vector3.Scale(playerCam.transform.position, new Vector3(-1,1,1)) - linkedMirror.transform.position);
             mirrorCam.transform.localPosition = Quaternion.AngleAxis(-90, linkedMirror.transform.right) * playerToMirror;
         }
     }
