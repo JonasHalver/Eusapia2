@@ -108,7 +108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mirrorIndex: 0
   currentWorld: 0
-  isPortal: 1
+  isPortal: 0
   canTeleport: 1
   player: {fileID: 0}
   linkedMirror: {fileID: 1557198864276669730}
