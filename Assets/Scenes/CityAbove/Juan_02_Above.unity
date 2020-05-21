@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 2.2477329, g: 4.4586415, b: 6.071811, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -188,6 +188,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cobblestone_01 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b92f9b24f13ea8d41ab3ce148171d80f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b92f9b24f13ea8d41ab3ce148171d80f, type: 3}
 --- !u!4 &10747199 stripped
@@ -282,6 +287,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WallLantern001 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 7e96f690ad1557e4294c8d6f66a61b30,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e96f690ad1557e4294c8d6f66a61b30, type: 3}
@@ -478,6 +488,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Window01_Nice (6)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b0cefb166d3772947918799e25d774b1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0cefb166d3772947918799e25d774b1, type: 3}
 --- !u!4 &21497737 stripped
@@ -557,6 +572,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: drain pipe ring (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 98cef50b43518d642bab58aa631212a8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98cef50b43518d642bab58aa631212a8, type: 3}
@@ -638,6 +658,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Window01_Nice (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b0cefb166d3772947918799e25d774b1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0cefb166d3772947918799e25d774b1, type: 3}
 --- !u!4 &24898893 stripped
@@ -717,6 +742,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: drain pipe ring (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 98cef50b43518d642bab58aa631212a8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98cef50b43518d642bab58aa631212a8, type: 3}
@@ -913,6 +943,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Roof gutter (23)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 99e4d4ced9373e0419c027a7281c5e73,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99e4d4ced9373e0419c027a7281c5e73, type: 3}
 --- !u!4 &27814830 stripped
@@ -1003,6 +1038,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building01_Base_Nice (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 08996ce18d58e214fa703f16e0da7e31,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08996ce18d58e214fa703f16e0da7e31, type: 3}
 --- !u!4 &30165331 stripped
@@ -1027,7 +1067,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &36460218
 Transform:
@@ -1622,6 +1662,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Window01_Nice
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b0cefb166d3772947918799e25d774b1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0cefb166d3772947918799e25d774b1, type: 3}
 --- !u!4 &57174480 stripped
@@ -1646,7 +1691,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &58936372
 Transform:
@@ -2041,6 +2086,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Roof gutter (10)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 99e4d4ced9373e0419c027a7281c5e73,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99e4d4ced9373e0419c027a7281c5e73, type: 3}
 --- !u!4 &82367690 stripped
@@ -2120,6 +2170,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Drain pipe module 01
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 94b92eefa7e55ee40a38b62dd0e17a0d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94b92eefa7e55ee40a38b62dd0e17a0d, type: 3}
@@ -2280,6 +2335,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ivy 01 (69)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095491346926186232, guid: 5a4230d34ce90ca4390653d050c8e4a5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a4230d34ce90ca4390653d050c8e4a5, type: 3}
@@ -2741,6 +2801,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Drain pipe module 02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: dfb42f623129a054c9918619ac4e1e15,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfb42f623129a054c9918619ac4e1e15, type: 3}
 --- !u!4 &115693150 stripped
@@ -2921,6 +2986,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Drain pipe module 02
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: dfb42f623129a054c9918619ac4e1e15,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfb42f623129a054c9918619ac4e1e15, type: 3}
 --- !u!4 &118848043 stripped
@@ -3016,6 +3086,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallLantern001 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 7e96f690ad1557e4294c8d6f66a61b30,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e96f690ad1557e4294c8d6f66a61b30, type: 3}
 --- !u!4 &124043682 stripped
@@ -3105,6 +3180,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: drain pipe end (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: a9b3a249e0fdd4d41ac8149d0abe8ccf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9b3a249e0fdd4d41ac8149d0abe8ccf, type: 3}
@@ -3210,7 +3290,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &139739654
 Transform:
@@ -3355,6 +3435,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vines 02 (37)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6486070993c6a2e4bb076f5821ee20c1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6486070993c6a2e4bb076f5821ee20c1, type: 3}
 --- !u!4 &140888647 stripped
@@ -3479,7 +3564,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &148845643
 Transform:
@@ -3558,7 +3643,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &149494253
 Transform:
@@ -3778,6 +3863,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cobblestone_01 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b92f9b24f13ea8d41ab3ce148171d80f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b92f9b24f13ea8d41ab3ce148171d80f, type: 3}
 --- !u!4 &150443252 stripped
@@ -3872,6 +3962,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Window03_Nice (56)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 474f3a1c371d72b458255bc71ee45f48,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 474f3a1c371d72b458255bc71ee45f48, type: 3}
@@ -3982,7 +4077,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &169583446
 Transform:
@@ -4282,6 +4377,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Drain pipe module 01
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 94b92eefa7e55ee40a38b62dd0e17a0d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94b92eefa7e55ee40a38b62dd0e17a0d, type: 3}
 --- !u!4 &173022100 stripped
@@ -4361,6 +4461,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: drain pipe ring (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 98cef50b43518d642bab58aa631212a8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98cef50b43518d642bab58aa631212a8, type: 3}
@@ -4552,6 +4657,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BalconyVertexPainted (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 51f073770a23a584bbc1a6564527370b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51f073770a23a584bbc1a6564527370b, type: 3}
 --- !u!4 &182372308 stripped
@@ -4626,6 +4736,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cobblestone_01 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b92f9b24f13ea8d41ab3ce148171d80f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b92f9b24f13ea8d41ab3ce148171d80f, type: 3}
@@ -4711,6 +4826,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Window01_Nice (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b0cefb166d3772947918799e25d774b1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0cefb166d3772947918799e25d774b1, type: 3}
@@ -4801,6 +4921,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Building01_Base_Nice (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 08996ce18d58e214fa703f16e0da7e31,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08996ce18d58e214fa703f16e0da7e31, type: 3}
@@ -4992,6 +5117,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BalconyVertexPainted (4)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 51f073770a23a584bbc1a6564527370b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51f073770a23a584bbc1a6564527370b, type: 3}
 --- !u!4 &203314501 stripped
@@ -5016,7 +5146,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &205076614
 Transform:
@@ -5095,7 +5225,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &207209691
 Transform:
@@ -5230,6 +5360,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: drain pipe ring (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 98cef50b43518d642bab58aa631212a8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98cef50b43518d642bab58aa631212a8, type: 3}
 --- !u!4 &208075609 stripped
@@ -5309,6 +5444,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Drain pipe module 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fbbcab842a61e684c8666ced6a4253b6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fbbcab842a61e684c8666ced6a4253b6, type: 3}
@@ -5399,6 +5539,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Window01_Nice (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b0cefb166d3772947918799e25d774b1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0cefb166d3772947918799e25d774b1, type: 3}
@@ -5659,6 +5804,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cobblestone_01 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b92f9b24f13ea8d41ab3ce148171d80f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b92f9b24f13ea8d41ab3ce148171d80f, type: 3}
@@ -6138,6 +6288,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: drain pipe ring (3)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 98cef50b43518d642bab58aa631212a8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98cef50b43518d642bab58aa631212a8, type: 3}
 --- !u!4 &260452857 stripped
@@ -6414,6 +6569,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building03_Top_Nice (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 66a05021cfeca5f4c878c8790e9f6edf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 66a05021cfeca5f4c878c8790e9f6edf, type: 3}
 --- !u!4 &286480658 stripped
@@ -6498,6 +6658,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Window01_Nice (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b0cefb166d3772947918799e25d774b1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0cefb166d3772947918799e25d774b1, type: 3}
@@ -6862,6 +7027,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rope (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3788871441781911566, guid: 0ab1c02df2765a04eaaa9a633ee4931c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4080439243931911148, guid: 0ab1c02df2765a04eaaa9a633ee4931c,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -6876,6 +7046,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 1.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 4080439243931911149, guid: 0ab1c02df2765a04eaaa9a633ee4931c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4080439244244648880, guid: 0ab1c02df2765a04eaaa9a633ee4931c,
         type: 3}
@@ -7212,6 +7387,11 @@ PrefabInstance:
       propertyPath: m_Positions.Array.data[21].z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4080439244244648881, guid: 0ab1c02df2765a04eaaa9a633ee4931c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4080439244244648882, guid: 0ab1c02df2765a04eaaa9a633ee4931c,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -7371,7 +7551,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &303743958
 Transform:
@@ -7520,6 +7700,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Rock_03 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 04951dbde96886247876951b477caff0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04951dbde96886247876951b477caff0, type: 3}
@@ -7741,7 +7926,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &313239129
 Transform:
@@ -8151,6 +8336,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BuildingBaseDam_03
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 121b4caf4b0677847a88c50bde3cc858,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 121b4caf4b0677847a88c50bde3cc858, type: 3}
 --- !u!4 &337570242 stripped
@@ -8230,6 +8420,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: drain pipe ring
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 98cef50b43518d642bab58aa631212a8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98cef50b43518d642bab58aa631212a8, type: 3}
@@ -8430,6 +8625,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Drain pipe module 02
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: dfb42f623129a054c9918619ac4e1e15,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfb42f623129a054c9918619ac4e1e15, type: 3}
@@ -8829,6 +9029,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock_01
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f6915f789db5c1b409f7287127e32c5e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6915f789db5c1b409f7287127e32c5e, type: 3}
 --- !u!4 &367275764 stripped
@@ -8851,7 +9056,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &373076093
 Transform:
@@ -9114,7 +9319,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &387738861
 Transform:
@@ -9263,6 +9468,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Building01_Base_Nice (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 08996ce18d58e214fa703f16e0da7e31,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08996ce18d58e214fa703f16e0da7e31, type: 3}
@@ -9439,6 +9649,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vines 02 (38)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6486070993c6a2e4bb076f5821ee20c1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6486070993c6a2e4bb076f5821ee20c1, type: 3}
 --- !u!4 &395397558 stripped
@@ -9463,7 +9678,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &404886670
 Transform:
@@ -9598,6 +9813,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Drain pipe module 02
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: dfb42f623129a054c9918619ac4e1e15,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfb42f623129a054c9918619ac4e1e15, type: 3}
 --- !u!4 &410894140 stripped
@@ -9677,6 +9897,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Roof gutter (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 99e4d4ced9373e0419c027a7281c5e73,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99e4d4ced9373e0419c027a7281c5e73, type: 3}
@@ -9843,6 +10068,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Drain pipe module 01
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 94b92eefa7e55ee40a38b62dd0e17a0d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94b92eefa7e55ee40a38b62dd0e17a0d, type: 3}
 --- !u!4 &426050055 stripped
@@ -9937,6 +10167,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Window03_Nice (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 474f3a1c371d72b458255bc71ee45f48,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 474f3a1c371d72b458255bc71ee45f48, type: 3}
@@ -10112,6 +10347,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Vines 02 (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6486070993c6a2e4bb076f5821ee20c1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6486070993c6a2e4bb076f5821ee20c1, type: 3}
@@ -10303,6 +10543,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building01_Base_Nice
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 08996ce18d58e214fa703f16e0da7e31,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08996ce18d58e214fa703f16e0da7e31, type: 3}
 --- !u!4 &441260002 stripped
@@ -10422,7 +10667,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &450767693
 Transform:
@@ -10562,6 +10807,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building01_Base_Nice (15)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 08996ce18d58e214fa703f16e0da7e31,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08996ce18d58e214fa703f16e0da7e31, type: 3}
 --- !u!4 &450930960 stripped
@@ -10636,6 +10886,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cobblestone_01 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b92f9b24f13ea8d41ab3ce148171d80f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b92f9b24f13ea8d41ab3ce148171d80f, type: 3}
@@ -10732,6 +10987,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building03_Middle_Nice (3)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b85623009f6de20459b1f4aa4ef2c83d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b85623009f6de20459b1f4aa4ef2c83d, type: 3}
 --- !u!4 &462933870 stripped
@@ -10807,6 +11067,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rope (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3788871441781911566, guid: 0ab1c02df2765a04eaaa9a633ee4931c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4080439243931911148, guid: 0ab1c02df2765a04eaaa9a633ee4931c,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -10821,6 +11086,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 3.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 4080439243931911149, guid: 0ab1c02df2765a04eaaa9a633ee4931c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4080439244244648880, guid: 0ab1c02df2765a04eaaa9a633ee4931c,
         type: 3}
@@ -11202,6 +11472,11 @@ PrefabInstance:
       propertyPath: m_Positions.Array.data[24].z
       value: -1.8489227
       objectReference: {fileID: 0}
+    - target: {fileID: 4080439244244648881, guid: 0ab1c02df2765a04eaaa9a633ee4931c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4080439244244648882, guid: 0ab1c02df2765a04eaaa9a633ee4931c,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -11412,6 +11687,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: drain pipe ring (4)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 98cef50b43518d642bab58aa631212a8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98cef50b43518d642bab58aa631212a8, type: 3}
 --- !u!4 &482325261 stripped
@@ -11572,6 +11852,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rope
       objectReference: {fileID: 0}
+    - target: {fileID: 3788871441781911566, guid: 0ab1c02df2765a04eaaa9a633ee4931c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4080439243931911148, guid: 0ab1c02df2765a04eaaa9a633ee4931c,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -11586,6 +11871,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 4080439243931911149, guid: 0ab1c02df2765a04eaaa9a633ee4931c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4080439244244648880, guid: 0ab1c02df2765a04eaaa9a633ee4931c,
         type: 3}
@@ -11922,6 +12212,11 @@ PrefabInstance:
       propertyPath: m_Positions.Array.data[21].z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4080439244244648881, guid: 0ab1c02df2765a04eaaa9a633ee4931c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4080439244244648882, guid: 0ab1c02df2765a04eaaa9a633ee4931c,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -12047,6 +12342,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cobblestone_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b92f9b24f13ea8d41ab3ce148171d80f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b92f9b24f13ea8d41ab3ce148171d80f, type: 3}
 --- !u!4 &500102642 stripped
@@ -12066,6 +12366,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Vines 02 (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2110806280683184381, guid: 4a36b80e04e9976488cd9b39bcef236a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 3103066970759500526, guid: 4a36b80e04e9976488cd9b39bcef236a,
         type: 3}
@@ -12154,7 +12459,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &501446351
 Transform:
@@ -12186,7 +12491,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &508613241
 Transform:
@@ -12356,6 +12661,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Window03_Nice (39)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 474f3a1c371d72b458255bc71ee45f48,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 474f3a1c371d72b458255bc71ee45f48, type: 3}
 --- !u!4 &523194733 stripped
@@ -12440,6 +12750,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cobblestone_07 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 658e93d01a04cb448add2efffe71c2a5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 658e93d01a04cb448add2efffe71c2a5, type: 3}
@@ -12631,6 +12946,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Window03_Nice (57)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 474f3a1c371d72b458255bc71ee45f48,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 474f3a1c371d72b458255bc71ee45f48, type: 3}
 --- !u!4 &541053109 stripped
@@ -12725,6 +13045,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Rock_01 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f6915f789db5c1b409f7287127e32c5e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6915f789db5c1b409f7287127e32c5e, type: 3}
@@ -12821,6 +13146,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallLantern001 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 7e96f690ad1557e4294c8d6f66a61b30,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e96f690ad1557e4294c8d6f66a61b30, type: 3}
 --- !u!4 &554339120 stripped
@@ -12911,6 +13241,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building03_Top_Nice (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 66a05021cfeca5f4c878c8790e9f6edf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 66a05021cfeca5f4c878c8790e9f6edf, type: 3}
 --- !u!4 &554769802 stripped
@@ -12991,6 +13326,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: drain pipe ring (3)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 98cef50b43518d642bab58aa631212a8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98cef50b43518d642bab58aa631212a8, type: 3}
 --- !u!4 &556566095 stripped
@@ -13015,7 +13355,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &557105951
 Transform:
@@ -13164,6 +13504,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: StoneCube (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f45dc9fc7cfdb3c4e9bd5dc9c7aa55ce,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f45dc9fc7cfdb3c4e9bd5dc9c7aa55ce, type: 3}
@@ -13430,6 +13775,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cobblestone_04 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 8f914800ba0a34e4d91b653ad61b768f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f914800ba0a34e4d91b653ad61b768f, type: 3}
 --- !u!4 &580795324 stripped
@@ -13514,6 +13864,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ArchBig_Nice
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 72685db5741979640ad285490309f6ca,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72685db5741979640ad285490309f6ca, type: 3}
@@ -13790,6 +14145,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock_03 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 04951dbde96886247876951b477caff0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04951dbde96886247876951b477caff0, type: 3}
 --- !u!4 &590399969 stripped
@@ -13884,6 +14244,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Rock_03 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 04951dbde96886247876951b477caff0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04951dbde96886247876951b477caff0, type: 3}
@@ -14070,6 +14435,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock_03 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 04951dbde96886247876951b477caff0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04951dbde96886247876951b477caff0, type: 3}
 --- !u!4 &599690709 stripped
@@ -14159,6 +14529,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SingleDoor01_Nice (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: e4fa3c514e5dae34cb77563be68d27f7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4fa3c514e5dae34cb77563be68d27f7, type: 3}
@@ -14254,6 +14629,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SingleDoor01_Nice (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: e4fa3c514e5dae34cb77563be68d27f7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4fa3c514e5dae34cb77563be68d27f7, type: 3}
@@ -14424,6 +14804,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: drain pipe end (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: a9b3a249e0fdd4d41ac8149d0abe8ccf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9b3a249e0fdd4d41ac8149d0abe8ccf, type: 3}
@@ -14985,6 +15370,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building03_Middle_Nice (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b85623009f6de20459b1f4aa4ef2c83d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b85623009f6de20459b1f4aa4ef2c83d, type: 3}
 --- !u!4 &656772701 stripped
@@ -15010,7 +15400,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &659708276
 Transform:
@@ -15173,6 +15563,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock_03 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 04951dbde96886247876951b477caff0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04951dbde96886247876951b477caff0, type: 3}
 --- !u!4 &663756056 stripped
@@ -15268,6 +15663,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BuildingTopDam_03
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 56efbc37c894d8240ae7ac83c6d67b02,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56efbc37c894d8240ae7ac83c6d67b02, type: 3}
 --- !u!4 &665040203 stripped
@@ -15292,7 +15692,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &668958701
 Transform:
@@ -15542,6 +15942,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BuildingMiddleDam_03
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 40f78e02cc1207b458be10d83392268f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 40f78e02cc1207b458be10d83392268f, type: 3}
 --- !u!4 &686307779 stripped
@@ -15566,7 +15971,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &690365106
 Transform:
@@ -15786,6 +16191,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: drain pipe ring (3)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 98cef50b43518d642bab58aa631212a8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98cef50b43518d642bab58aa631212a8, type: 3}
 --- !u!4 &694507702 stripped
@@ -15865,6 +16275,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Building03_Top_Nice
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 66a05021cfeca5f4c878c8790e9f6edf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 66a05021cfeca5f4c878c8790e9f6edf, type: 3}
@@ -15961,6 +16376,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallLantern001 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 7e96f690ad1557e4294c8d6f66a61b30,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e96f690ad1557e4294c8d6f66a61b30, type: 3}
 --- !u!4 &701823546 stripped
@@ -16050,6 +16470,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RoofCurved (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5269614e48485d049a61d4b1bab5f21f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5269614e48485d049a61d4b1bab5f21f, type: 3}
@@ -16158,7 +16583,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &704768560
 Transform:
@@ -16201,7 +16626,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &714956669
 Transform:
@@ -16416,6 +16841,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cobblestone_01 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b92f9b24f13ea8d41ab3ce148171d80f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b92f9b24f13ea8d41ab3ce148171d80f, type: 3}
 --- !u!4 &720630840 stripped
@@ -16511,6 +16941,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Window03_Nice (3)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 474f3a1c371d72b458255bc71ee45f48,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 474f3a1c371d72b458255bc71ee45f48, type: 3}
 --- !u!4 &721761022 stripped
@@ -16591,6 +17026,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Window03_Nice (40)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 474f3a1c371d72b458255bc71ee45f48,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 474f3a1c371d72b458255bc71ee45f48, type: 3}
 --- !u!4 &722807276 stripped
@@ -16615,7 +17055,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &724116847
 Transform:
@@ -16850,6 +17290,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BuildingBaseDam_03 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 121b4caf4b0677847a88c50bde3cc858,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 121b4caf4b0677847a88c50bde3cc858, type: 3}
 --- !u!4 &727487828 stripped
@@ -16915,7 +17360,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &741982336
 Transform:
@@ -17115,7 +17560,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &754332728
 Transform:
@@ -17360,6 +17805,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f6915f789db5c1b409f7287127e32c5e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6915f789db5c1b409f7287127e32c5e, type: 3}
 --- !u!4 &759915344 stripped
@@ -17440,6 +17890,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Drain pipe module 02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: dfb42f623129a054c9918619ac4e1e15,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfb42f623129a054c9918619ac4e1e15, type: 3}
 --- !u!4 &766666748 stripped
@@ -17519,6 +17974,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: drain pipe ring
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 98cef50b43518d642bab58aa631212a8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98cef50b43518d642bab58aa631212a8, type: 3}
@@ -17715,6 +18175,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stairs02_Nice
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 35701e82902239e4caa09931eabb1bb3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35701e82902239e4caa09931eabb1bb3, type: 3}
 --- !u!4 &780250182 stripped
@@ -17810,6 +18275,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cobblestone_01 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b92f9b24f13ea8d41ab3ce148171d80f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b92f9b24f13ea8d41ab3ce148171d80f, type: 3}
 --- !u!4 &787856593 stripped
@@ -17884,6 +18354,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ivy 01 (70)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095491346926186232, guid: 5a4230d34ce90ca4390653d050c8e4a5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a4230d34ce90ca4390653d050c8e4a5, type: 3}
@@ -18065,6 +18540,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: drain pipe ring (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 98cef50b43518d642bab58aa631212a8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98cef50b43518d642bab58aa631212a8, type: 3}
 --- !u!4 &809798083 stripped
@@ -18144,6 +18624,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Drain pipe module 02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: dfb42f623129a054c9918619ac4e1e15,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfb42f623129a054c9918619ac4e1e15, type: 3}
@@ -18239,6 +18724,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RoofWindow01_Nice
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: e1e22cc002c98d04f8d32995d8e9ee9f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1e22cc002c98d04f8d32995d8e9ee9f, type: 3}
@@ -18534,7 +19024,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &838312160
 Transform:
@@ -18674,6 +19164,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building01_Base_Nice (3)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 08996ce18d58e214fa703f16e0da7e31,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08996ce18d58e214fa703f16e0da7e31, type: 3}
 --- !u!4 &840671469 stripped
@@ -18698,7 +19193,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &842225533
 Transform:
@@ -18777,7 +19272,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &843724229
 Transform:
@@ -19131,7 +19626,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &858370664
 Transform:
@@ -19208,7 +19703,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &859480159
 Transform:
@@ -19314,6 +19809,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Window01_Nice (9)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b0cefb166d3772947918799e25d774b1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0cefb166d3772947918799e25d774b1, type: 3}
 --- !u!4 &862558390 stripped
@@ -19388,6 +19888,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cobblestone_04 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 8f914800ba0a34e4d91b653ad61b768f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f914800ba0a34e4d91b653ad61b768f, type: 3}
@@ -20154,6 +20659,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vines 02 (33)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6486070993c6a2e4bb076f5821ee20c1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6486070993c6a2e4bb076f5821ee20c1, type: 3}
 --- !u!4 &885260967 stripped
@@ -20178,7 +20688,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &890793642
 Transform:
@@ -20398,6 +20908,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: drain pipe ring
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 98cef50b43518d642bab58aa631212a8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98cef50b43518d642bab58aa631212a8, type: 3}
 --- !u!4 &899697080 stripped
@@ -20488,6 +21003,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building03_Middle_Nice
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b85623009f6de20459b1f4aa4ef2c83d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b85623009f6de20459b1f4aa4ef2c83d, type: 3}
 --- !u!4 &904209724 stripped
@@ -20577,6 +21097,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cobblestone_03 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f61a1bf6918c8a44c96c11be2a295a7c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f61a1bf6918c8a44c96c11be2a295a7c, type: 3}
@@ -20672,6 +21197,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Window03_Nice (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 474f3a1c371d72b458255bc71ee45f48,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 474f3a1c371d72b458255bc71ee45f48, type: 3}
@@ -20868,6 +21398,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BalconyVertexPainted (3)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 51f073770a23a584bbc1a6564527370b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51f073770a23a584bbc1a6564527370b, type: 3}
 --- !u!4 &909593612 stripped
@@ -20962,6 +21497,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cobblestone_01 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b92f9b24f13ea8d41ab3ce148171d80f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b92f9b24f13ea8d41ab3ce148171d80f, type: 3}
@@ -21070,7 +21610,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &923617824
 Transform:
@@ -21280,7 +21820,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &930558952
 Transform:
@@ -21520,6 +22060,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: drain pipe end
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: a9b3a249e0fdd4d41ac8149d0abe8ccf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9b3a249e0fdd4d41ac8149d0abe8ccf, type: 3}
 --- !u!4 &932680000 stripped
@@ -21604,6 +22149,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Roof gutter (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 99e4d4ced9373e0419c027a7281c5e73,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99e4d4ced9373e0419c027a7281c5e73, type: 3}
@@ -21695,6 +22245,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: drain pipe end
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: a9b3a249e0fdd4d41ac8149d0abe8ccf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9b3a249e0fdd4d41ac8149d0abe8ccf, type: 3}
 --- !u!4 &936639257 stripped
@@ -21719,7 +22274,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &953861140
 Transform:
@@ -21844,6 +22399,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7904628958924750789, guid: 744ce632f983dff4cac08b80af3bc770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -7208261875293819463, guid: 744ce632f983dff4cac08b80af3bc770,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -21909,6 +22469,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6746337136017351268, guid: 744ce632f983dff4cac08b80af3bc770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -6029000730856206371, guid: 744ce632f983dff4cac08b80af3bc770,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21934,6 +22499,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6011824871062540850, guid: 744ce632f983dff4cac08b80af3bc770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -5974262698164156948, guid: 744ce632f983dff4cac08b80af3bc770,
         type: 3}
       propertyPath: m_IsActive
@@ -21943,6 +22513,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5974262698164156948, guid: 744ce632f983dff4cac08b80af3bc770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -5896867103006567734, guid: 744ce632f983dff4cac08b80af3bc770,
         type: 3}
@@ -22003,6 +22578,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4921264170896594414, guid: 744ce632f983dff4cac08b80af3bc770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4843101966079176205, guid: 744ce632f983dff4cac08b80af3bc770,
         type: 3}
@@ -22104,6 +22684,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3101468141384465071, guid: 744ce632f983dff4cac08b80af3bc770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -2385566455573233845, guid: 744ce632f983dff4cac08b80af3bc770,
         type: 3}
       propertyPath: m_IsActive
@@ -22113,6 +22698,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2385566455573233845, guid: 744ce632f983dff4cac08b80af3bc770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -1617753046479039301, guid: 744ce632f983dff4cac08b80af3bc770,
         type: 3}
@@ -22169,6 +22759,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1138565644250384471, guid: 744ce632f983dff4cac08b80af3bc770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -1080982298014166875, guid: 744ce632f983dff4cac08b80af3bc770,
         type: 3}
       propertyPath: m_IsActive
@@ -22178,6 +22773,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1080982298014166875, guid: 744ce632f983dff4cac08b80af3bc770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: 744ce632f983dff4cac08b80af3bc770,
         type: 3}
@@ -22194,6 +22794,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 744ce632f983dff4cac08b80af3bc770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -791124162466605018, guid: 744ce632f983dff4cac08b80af3bc770,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -22209,6 +22814,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 169911735054110722, guid: 744ce632f983dff4cac08b80af3bc770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1891271986987436862, guid: 744ce632f983dff4cac08b80af3bc770,
         type: 3}
       propertyPath: m_IsActive
@@ -22218,6 +22828,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1891271986987436862, guid: 744ce632f983dff4cac08b80af3bc770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 3265119186675686924, guid: 744ce632f983dff4cac08b80af3bc770,
         type: 3}
@@ -22233,6 +22848,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3393561265497262859, guid: 744ce632f983dff4cac08b80af3bc770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 3531912257684320930, guid: 744ce632f983dff4cac08b80af3bc770,
         type: 3}
@@ -22258,6 +22878,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3962807711882170991, guid: 744ce632f983dff4cac08b80af3bc770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4733814758004926472, guid: 744ce632f983dff4cac08b80af3bc770,
         type: 3}
@@ -22314,6 +22939,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4797280172761968363, guid: 744ce632f983dff4cac08b80af3bc770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 5747058287541847997, guid: 744ce632f983dff4cac08b80af3bc770,
         type: 3}
       propertyPath: m_IsActive
@@ -22323,6 +22953,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5747058287541847997, guid: 744ce632f983dff4cac08b80af3bc770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6612828787077504394, guid: 744ce632f983dff4cac08b80af3bc770,
         type: 3}
@@ -22334,6 +22969,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6612828787077504394, guid: 744ce632f983dff4cac08b80af3bc770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 6763248447100365842, guid: 744ce632f983dff4cac08b80af3bc770,
         type: 3}
       propertyPath: m_IsActive
@@ -22344,6 +22984,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6763248447100365842, guid: 744ce632f983dff4cac08b80af3bc770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 7377082389417926302, guid: 744ce632f983dff4cac08b80af3bc770,
         type: 3}
       propertyPath: m_IsActive
@@ -22353,6 +22998,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7377082389417926302, guid: 744ce632f983dff4cac08b80af3bc770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 7795848928485908798, guid: 744ce632f983dff4cac08b80af3bc770,
         type: 3}
@@ -22409,6 +23059,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 8472490236305165990, guid: 744ce632f983dff4cac08b80af3bc770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 9149512843496810205, guid: 744ce632f983dff4cac08b80af3bc770,
         type: 3}
       propertyPath: m_IsActive
@@ -22418,6 +23073,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9149512843496810205, guid: 744ce632f983dff4cac08b80af3bc770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 744ce632f983dff4cac08b80af3bc770, type: 3}
@@ -22702,6 +23362,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Rock_03 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 04951dbde96886247876951b477caff0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04951dbde96886247876951b477caff0, type: 3}
@@ -23068,6 +23733,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building01_Middle_Nice (4)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 978f30324ecf7a6418fd953dc8b15ecc,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 978f30324ecf7a6418fd953dc8b15ecc, type: 3}
 --- !u!4 &976683799 stripped
@@ -23147,6 +23817,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Window01_Nice (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b0cefb166d3772947918799e25d774b1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0cefb166d3772947918799e25d774b1, type: 3}
@@ -23318,6 +23993,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Drain pipe module 01
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 94b92eefa7e55ee40a38b62dd0e17a0d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94b92eefa7e55ee40a38b62dd0e17a0d, type: 3}
 --- !u!4 &979698048 stripped
@@ -23408,6 +24088,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StoneCube (4)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f45dc9fc7cfdb3c4e9bd5dc9c7aa55ce,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f45dc9fc7cfdb3c4e9bd5dc9c7aa55ce, type: 3}
 --- !u!4 &983219177 stripped
@@ -23432,7 +24117,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &988291921
 Transform:
@@ -23604,7 +24289,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &997800071
 Transform:
@@ -23815,7 +24500,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1009942912
 Transform:
@@ -24089,6 +24774,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Drain pipe module 02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: dfb42f623129a054c9918619ac4e1e15,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfb42f623129a054c9918619ac4e1e15, type: 3}
 --- !u!4 &1018709387 stripped
@@ -24213,7 +24903,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1036491907
 Transform:
@@ -24463,6 +25153,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoofWindow01_Nice (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: e1e22cc002c98d04f8d32995d8e9ee9f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1e22cc002c98d04f8d32995d8e9ee9f, type: 3}
 --- !u!4 &1042606645 stripped
@@ -24644,6 +25339,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoofCurved (6)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5269614e48485d049a61d4b1bab5f21f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5269614e48485d049a61d4b1bab5f21f, type: 3}
 --- !u!4 &1042849733 stripped
@@ -24724,6 +25424,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: drain pipe ring (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 98cef50b43518d642bab58aa631212a8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98cef50b43518d642bab58aa631212a8, type: 3}
 --- !u!4 &1045565917 stripped
@@ -24746,7 +25451,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1047525662
 Transform:
@@ -24844,6 +25549,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cobblestone_06 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: bcd2e3a77f164d74398fae0ebb833930,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcd2e3a77f164d74398fae0ebb833930, type: 3}
@@ -25134,7 +25844,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1055471610
 Transform:
@@ -25269,6 +25979,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Drain pipe module 3
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fbbcab842a61e684c8666ced6a4253b6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fbbcab842a61e684c8666ced6a4253b6, type: 3}
 --- !u!4 &1060028642 stripped
@@ -25383,7 +26098,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1061179467
 Transform:
@@ -25460,7 +26175,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1062343955
 Transform:
@@ -25558,6 +26273,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building03_Base_Nice (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: cefabbef76534e7428165d423d4b5afa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cefabbef76534e7428165d423d4b5afa, type: 3}
 --- !u!4 &1068092187 stripped
@@ -25637,6 +26357,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Drain pipe module 02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: dfb42f623129a054c9918619ac4e1e15,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfb42f623129a054c9918619ac4e1e15, type: 3}
@@ -26423,6 +27148,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Drain pipe module 01
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 94b92eefa7e55ee40a38b62dd0e17a0d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94b92eefa7e55ee40a38b62dd0e17a0d, type: 3}
 --- !u!4 &1106072068 stripped
@@ -26447,7 +27177,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1109040074
 Transform:
@@ -26581,6 +27311,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BuildingBaseDam_03 (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 121b4caf4b0677847a88c50bde3cc858,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 121b4caf4b0677847a88c50bde3cc858, type: 3}
@@ -27022,6 +27757,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: drain pipe end
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: a9b3a249e0fdd4d41ac8149d0abe8ccf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9b3a249e0fdd4d41ac8149d0abe8ccf, type: 3}
 --- !u!4 &1140839593 stripped
@@ -27111,6 +27851,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Vines 01 (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3251865710536392729, guid: 0c7c4b6abd498bf4bb48ff284b5e59eb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c7c4b6abd498bf4bb48ff284b5e59eb, type: 3}
@@ -27291,6 +28036,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: drain pipe ring
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 98cef50b43518d642bab58aa631212a8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98cef50b43518d642bab58aa631212a8, type: 3}
@@ -27637,6 +28387,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SingleDoor01_Nice
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: e4fa3c514e5dae34cb77563be68d27f7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4fa3c514e5dae34cb77563be68d27f7, type: 3}
 --- !u!4 &1163537241 stripped
@@ -27707,6 +28462,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7904628958924750789, guid: 744ce632f983dff4cac08b80af3bc770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -7208261875293819463, guid: 744ce632f983dff4cac08b80af3bc770,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -27772,6 +28532,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6746337136017351268, guid: 744ce632f983dff4cac08b80af3bc770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -6029000730856206371, guid: 744ce632f983dff4cac08b80af3bc770,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -27797,6 +28562,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6011824871062540850, guid: 744ce632f983dff4cac08b80af3bc770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -5974262698164156948, guid: 744ce632f983dff4cac08b80af3bc770,
         type: 3}
       propertyPath: m_IsActive
@@ -27806,6 +28576,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5974262698164156948, guid: 744ce632f983dff4cac08b80af3bc770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -5896867103006567734, guid: 744ce632f983dff4cac08b80af3bc770,
         type: 3}
@@ -27866,6 +28641,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4921264170896594414, guid: 744ce632f983dff4cac08b80af3bc770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4843101966079176205, guid: 744ce632f983dff4cac08b80af3bc770,
         type: 3}
@@ -27967,6 +28747,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3101468141384465071, guid: 744ce632f983dff4cac08b80af3bc770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -2385566455573233845, guid: 744ce632f983dff4cac08b80af3bc770,
         type: 3}
       propertyPath: m_IsActive
@@ -27976,6 +28761,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2385566455573233845, guid: 744ce632f983dff4cac08b80af3bc770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -1617753046479039301, guid: 744ce632f983dff4cac08b80af3bc770,
         type: 3}
@@ -28032,6 +28822,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1138565644250384471, guid: 744ce632f983dff4cac08b80af3bc770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -1080982298014166875, guid: 744ce632f983dff4cac08b80af3bc770,
         type: 3}
       propertyPath: m_IsActive
@@ -28041,6 +28836,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1080982298014166875, guid: 744ce632f983dff4cac08b80af3bc770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: 744ce632f983dff4cac08b80af3bc770,
         type: 3}
@@ -28057,6 +28857,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 744ce632f983dff4cac08b80af3bc770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -791124162466605018, guid: 744ce632f983dff4cac08b80af3bc770,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -28072,6 +28877,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 169911735054110722, guid: 744ce632f983dff4cac08b80af3bc770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1891271986987436862, guid: 744ce632f983dff4cac08b80af3bc770,
         type: 3}
       propertyPath: m_IsActive
@@ -28081,6 +28891,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1891271986987436862, guid: 744ce632f983dff4cac08b80af3bc770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 3265119186675686924, guid: 744ce632f983dff4cac08b80af3bc770,
         type: 3}
@@ -28096,6 +28911,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3393561265497262859, guid: 744ce632f983dff4cac08b80af3bc770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 3531912257684320930, guid: 744ce632f983dff4cac08b80af3bc770,
         type: 3}
@@ -28121,6 +28941,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3962807711882170991, guid: 744ce632f983dff4cac08b80af3bc770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4733814758004926472, guid: 744ce632f983dff4cac08b80af3bc770,
         type: 3}
@@ -28177,6 +29002,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4797280172761968363, guid: 744ce632f983dff4cac08b80af3bc770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 5747058287541847997, guid: 744ce632f983dff4cac08b80af3bc770,
         type: 3}
       propertyPath: m_IsActive
@@ -28186,6 +29016,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5747058287541847997, guid: 744ce632f983dff4cac08b80af3bc770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6612828787077504394, guid: 744ce632f983dff4cac08b80af3bc770,
         type: 3}
@@ -28197,6 +29032,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6612828787077504394, guid: 744ce632f983dff4cac08b80af3bc770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 6763248447100365842, guid: 744ce632f983dff4cac08b80af3bc770,
         type: 3}
       propertyPath: m_IsActive
@@ -28207,6 +29047,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6763248447100365842, guid: 744ce632f983dff4cac08b80af3bc770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 7377082389417926302, guid: 744ce632f983dff4cac08b80af3bc770,
         type: 3}
       propertyPath: m_IsActive
@@ -28216,6 +29061,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7377082389417926302, guid: 744ce632f983dff4cac08b80af3bc770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 7795848928485908798, guid: 744ce632f983dff4cac08b80af3bc770,
         type: 3}
@@ -28282,6 +29132,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 8472490236305165990, guid: 744ce632f983dff4cac08b80af3bc770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 9149512843496810205, guid: 744ce632f983dff4cac08b80af3bc770,
         type: 3}
       propertyPath: m_IsActive
@@ -28291,6 +29146,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9149512843496810205, guid: 744ce632f983dff4cac08b80af3bc770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 744ce632f983dff4cac08b80af3bc770, type: 3}
@@ -28310,7 +29170,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1164518164
 Transform:
@@ -28459,6 +29319,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Rock_03 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 04951dbde96886247876951b477caff0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04951dbde96886247876951b477caff0, type: 3}
@@ -28715,6 +29580,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cobblestone_01 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b92f9b24f13ea8d41ab3ce148171d80f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b92f9b24f13ea8d41ab3ce148171d80f, type: 3}
 --- !u!4 &1199109532 stripped
@@ -28810,6 +29680,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building03_Base_Nice (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: cefabbef76534e7428165d423d4b5afa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cefabbef76534e7428165d423d4b5afa, type: 3}
 --- !u!1001 &1202481080
@@ -28893,6 +29768,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: StoneCube (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f45dc9fc7cfdb3c4e9bd5dc9c7aa55ce,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f45dc9fc7cfdb3c4e9bd5dc9c7aa55ce, type: 3}
@@ -29169,6 +30049,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: drain pipe end (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: a9b3a249e0fdd4d41ac8149d0abe8ccf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9b3a249e0fdd4d41ac8149d0abe8ccf, type: 3}
 --- !u!4 &1215849846 stripped
@@ -29343,6 +30228,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Rock_03 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 04951dbde96886247876951b477caff0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04951dbde96886247876951b477caff0, type: 3}
@@ -29524,6 +30414,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: drain pipe ring (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 98cef50b43518d642bab58aa631212a8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98cef50b43518d642bab58aa631212a8, type: 3}
 --- !u!4 &1224738025 stripped
@@ -29698,6 +30593,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Drain pipe module 02
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: dfb42f623129a054c9918619ac4e1e15,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfb42f623129a054c9918619ac4e1e15, type: 3}
@@ -30280,6 +31180,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vines 02 (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 2110806280683184381, guid: 4a36b80e04e9976488cd9b39bcef236a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 3103066970759500526, guid: 4a36b80e04e9976488cd9b39bcef236a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -30415,6 +31320,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: drain pipe ring (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 98cef50b43518d642bab58aa631212a8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98cef50b43518d642bab58aa631212a8, type: 3}
 --- !u!4 &1264989438 stripped
@@ -30439,7 +31349,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1274622060
 Transform:
@@ -30584,6 +31494,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Window03_Nice (37)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 474f3a1c371d72b458255bc71ee45f48,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 474f3a1c371d72b458255bc71ee45f48, type: 3}
 --- !u!4 &1283933483 stripped
@@ -30679,6 +31594,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock_03
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 04951dbde96886247876951b477caff0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04951dbde96886247876951b477caff0, type: 3}
 --- !u!4 &1284223744 stripped
@@ -30703,7 +31623,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1296813936
 Transform:
@@ -30782,7 +31702,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1299709064
 Transform:
@@ -30922,6 +31842,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cobblestone_05
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 7305da2ddf011fc4581d17d6ee199745,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7305da2ddf011fc4581d17d6ee199745, type: 3}
 --- !u!4 &1301025216 stripped
@@ -31002,6 +31927,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: drain pipe ring (4)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 98cef50b43518d642bab58aa631212a8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98cef50b43518d642bab58aa631212a8, type: 3}
 --- !u!4 &1304112378 stripped
@@ -31081,6 +32011,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Window01_Nice (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b0cefb166d3772947918799e25d774b1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0cefb166d3772947918799e25d774b1, type: 3}
@@ -31257,6 +32192,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Roof gutter (11)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 99e4d4ced9373e0419c027a7281c5e73,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99e4d4ced9373e0419c027a7281c5e73, type: 3}
 --- !u!4 &1315470569 stripped
@@ -31279,7 +32219,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1326238747
 Transform:
@@ -31317,7 +32257,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1326933796
 Transform:
@@ -31541,6 +32481,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cobblestone_01 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b92f9b24f13ea8d41ab3ce148171d80f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b92f9b24f13ea8d41ab3ce148171d80f, type: 3}
@@ -31841,7 +32786,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1354126192
 Transform:
@@ -32682,6 +33627,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StoneCube (3)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f45dc9fc7cfdb3c4e9bd5dc9c7aa55ce,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f45dc9fc7cfdb3c4e9bd5dc9c7aa55ce, type: 3}
 --- !u!4 &1382838457 stripped
@@ -32761,6 +33711,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Drain pipe module 02
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: dfb42f623129a054c9918619ac4e1e15,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfb42f623129a054c9918619ac4e1e15, type: 3}
@@ -32847,6 +33802,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MainDoubleDoor02_Nice (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: a4214f4ae339db54e858805219f9b986,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4214f4ae339db54e858805219f9b986, type: 3}
 --- !u!4 &1387174872 stripped
@@ -32871,7 +33831,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1390354153
 Transform:
@@ -33201,6 +34161,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock_03 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 04951dbde96886247876951b477caff0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04951dbde96886247876951b477caff0, type: 3}
 --- !u!4 &1401448764 stripped
@@ -33261,7 +34226,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1412424496
 Transform:
@@ -33411,6 +34376,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock_01 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f6915f789db5c1b409f7287127e32c5e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6915f789db5c1b409f7287127e32c5e, type: 3}
 --- !u!4 &1414527169 stripped
@@ -33485,6 +34455,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cobblestone_01 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b92f9b24f13ea8d41ab3ce148171d80f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b92f9b24f13ea8d41ab3ce148171d80f, type: 3}
@@ -33666,6 +34641,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Window01_Nice (8)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b0cefb166d3772947918799e25d774b1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0cefb166d3772947918799e25d774b1, type: 3}
 --- !u!4 &1420152502 stripped
@@ -33756,6 +34736,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building01_Base_Nice (5)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 08996ce18d58e214fa703f16e0da7e31,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08996ce18d58e214fa703f16e0da7e31, type: 3}
 --- !u!4 &1423167108 stripped
@@ -33836,6 +34821,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Drain pipe module 01
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 94b92eefa7e55ee40a38b62dd0e17a0d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94b92eefa7e55ee40a38b62dd0e17a0d, type: 3}
 --- !u!4 &1425963353 stripped
@@ -33915,6 +34905,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cobblestone_01 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b92f9b24f13ea8d41ab3ce148171d80f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b92f9b24f13ea8d41ab3ce148171d80f, type: 3}
@@ -34040,7 +35035,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1438365190
 Transform:
@@ -34493,6 +35488,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Window03_Nice
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 474f3a1c371d72b458255bc71ee45f48,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 474f3a1c371d72b458255bc71ee45f48, type: 3}
 --- !u!4 &1439877173 stripped
@@ -34582,6 +35582,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Vines 02 (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6486070993c6a2e4bb076f5821ee20c1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6486070993c6a2e4bb076f5821ee20c1, type: 3}
@@ -34758,6 +35763,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cobblestone_07 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 658e93d01a04cb448add2efffe71c2a5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 658e93d01a04cb448add2efffe71c2a5, type: 3}
 --- !u!4 &1451036329 stripped
@@ -34833,6 +35843,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cobblestone_01
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b92f9b24f13ea8d41ab3ce148171d80f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b92f9b24f13ea8d41ab3ce148171d80f, type: 3}
 --- !u!4 &1451145144 stripped
@@ -34857,7 +35872,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1455530658
 Transform:
@@ -35102,6 +36117,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building03_Base_Nice
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: cefabbef76534e7428165d423d4b5afa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cefabbef76534e7428165d423d4b5afa, type: 3}
 --- !u!4 &1465955498 stripped
@@ -35267,6 +36287,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Roof gutter (12)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 99e4d4ced9373e0419c027a7281c5e73,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99e4d4ced9373e0419c027a7281c5e73, type: 3}
 --- !u!4 &1467640810 stripped
@@ -35346,6 +36371,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: drain pipe ring (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 98cef50b43518d642bab58aa631212a8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98cef50b43518d642bab58aa631212a8, type: 3}
@@ -35436,6 +36466,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Building01_Base_Nice (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 08996ce18d58e214fa703f16e0da7e31,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08996ce18d58e214fa703f16e0da7e31, type: 3}
@@ -35616,6 +36651,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: StoneCube (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f45dc9fc7cfdb3c4e9bd5dc9c7aa55ce,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f45dc9fc7cfdb3c4e9bd5dc9c7aa55ce, type: 3}
@@ -35910,6 +36950,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Window01_Nice (7)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b0cefb166d3772947918799e25d774b1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0cefb166d3772947918799e25d774b1, type: 3}
 --- !u!4 &1491065961 stripped
@@ -36180,6 +37225,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Drain pipe module 3
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fbbcab842a61e684c8666ced6a4253b6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fbbcab842a61e684c8666ced6a4253b6, type: 3}
 --- !u!4 &1498398866 stripped
@@ -36269,6 +37319,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Vines 02 (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6486070993c6a2e4bb076f5821ee20c1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6486070993c6a2e4bb076f5821ee20c1, type: 3}
@@ -36360,6 +37415,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BuildingBaseDam_03 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 121b4caf4b0677847a88c50bde3cc858,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 121b4caf4b0677847a88c50bde3cc858, type: 3}
 --- !u!4 &1499693497 stripped
@@ -36384,7 +37444,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1500912636
 Transform:
@@ -36519,6 +37579,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: drain pipe ring (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 98cef50b43518d642bab58aa631212a8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98cef50b43518d642bab58aa631212a8, type: 3}
 --- !u!4 &1505253047 stripped
@@ -36603,6 +37668,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ArchBig_Nice (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 72685db5741979640ad285490309f6ca,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72685db5741979640ad285490309f6ca, type: 3}
@@ -36699,6 +37769,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Window03_Nice (55)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 474f3a1c371d72b458255bc71ee45f48,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 474f3a1c371d72b458255bc71ee45f48, type: 3}
 --- !u!4 &1507030011 stripped
@@ -36789,6 +37864,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building03_Base_Nice (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: cefabbef76534e7428165d423d4b5afa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cefabbef76534e7428165d423d4b5afa, type: 3}
 --- !u!4 &1514273664 stripped
@@ -36868,6 +37948,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Window01_Nice (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b0cefb166d3772947918799e25d774b1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0cefb166d3772947918799e25d774b1, type: 3}
@@ -37144,6 +38229,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BuildingBaseDam_03 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 121b4caf4b0677847a88c50bde3cc858,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 121b4caf4b0677847a88c50bde3cc858, type: 3}
 --- !u!4 &1531439684 stripped
@@ -37239,6 +38329,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BuildingTopDam_03 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 56efbc37c894d8240ae7ac83c6d67b02,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56efbc37c894d8240ae7ac83c6d67b02, type: 3}
 --- !u!4 &1531499500 stripped
@@ -37313,6 +38408,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cobblestone_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b92f9b24f13ea8d41ab3ce148171d80f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b92f9b24f13ea8d41ab3ce148171d80f, type: 3}
@@ -37489,6 +38589,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cobblestone_03 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f61a1bf6918c8a44c96c11be2a295a7c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f61a1bf6918c8a44c96c11be2a295a7c, type: 3}
 --- !u!4 &1538683583 stripped
@@ -37659,6 +38764,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vines 02 (32)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6486070993c6a2e4bb076f5821ee20c1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6486070993c6a2e4bb076f5821ee20c1, type: 3}
 --- !u!4 &1545071489 stripped
@@ -37778,7 +38888,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1551920885
 Transform:
@@ -38112,6 +39222,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BalconyVertexPainted
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 51f073770a23a584bbc1a6564527370b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51f073770a23a584bbc1a6564527370b, type: 3}
@@ -38563,6 +39678,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock_03 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 04951dbde96886247876951b477caff0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04951dbde96886247876951b477caff0, type: 3}
 --- !u!4 &1568843642 stripped
@@ -38587,7 +39707,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1573012490
 Transform:
@@ -38761,7 +39881,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1581756819
 Transform:
@@ -38997,6 +40117,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoofCurved (5)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5269614e48485d049a61d4b1bab5f21f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5269614e48485d049a61d4b1bab5f21f, type: 3}
 --- !u!4 &1598019640 stripped
@@ -39021,7 +40146,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1598073806
 Transform:
@@ -39256,6 +40381,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cobblestone_06
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: bcd2e3a77f164d74398fae0ebb833930,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcd2e3a77f164d74398fae0ebb833930, type: 3}
 --- !u!4 &1601303132 stripped
@@ -39341,6 +40471,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BuildingBaseDam_03 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 121b4caf4b0677847a88c50bde3cc858,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 121b4caf4b0677847a88c50bde3cc858, type: 3}
 --- !u!4 &1601309502 stripped
@@ -39365,7 +40500,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1601702267
 Transform:
@@ -39605,6 +40740,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cobblestone_03 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f61a1bf6918c8a44c96c11be2a295a7c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f61a1bf6918c8a44c96c11be2a295a7c, type: 3}
 --- !u!4 &1608183526 stripped
@@ -39774,6 +40914,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Drain pipe module 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fbbcab842a61e684c8666ced6a4253b6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fbbcab842a61e684c8666ced6a4253b6, type: 3}
@@ -40164,7 +41309,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1621114466
 Transform:
@@ -40243,7 +41388,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1621596457
 Transform:
@@ -40392,6 +41537,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BalconyVertexPainted (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 51f073770a23a584bbc1a6564527370b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51f073770a23a584bbc1a6564527370b, type: 3}
@@ -40578,6 +41728,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BuildingTopDam_03 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 56efbc37c894d8240ae7ac83c6d67b02,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56efbc37c894d8240ae7ac83c6d67b02, type: 3}
 --- !u!4 &1630660248 stripped
@@ -40658,6 +41813,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Drain pipe module 02
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: dfb42f623129a054c9918619ac4e1e15,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfb42f623129a054c9918619ac4e1e15, type: 3}
 --- !u!4 &1635068479 stripped
@@ -40682,7 +41842,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1642197696
 Transform:
@@ -40761,7 +41921,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1642260372
 Transform:
@@ -40996,6 +42156,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: drain pipe ring (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 98cef50b43518d642bab58aa631212a8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98cef50b43518d642bab58aa631212a8, type: 3}
 --- !u!4 &1645759416 stripped
@@ -41080,6 +42245,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Building01_Base_Nice (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 08996ce18d58e214fa703f16e0da7e31,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08996ce18d58e214fa703f16e0da7e31, type: 3}
@@ -41190,7 +42360,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1654139770
 Transform:
@@ -41270,7 +42440,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1656687438
 Transform:
@@ -41518,6 +42688,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StoneCube
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f45dc9fc7cfdb3c4e9bd5dc9c7aa55ce,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f45dc9fc7cfdb3c4e9bd5dc9c7aa55ce, type: 3}
 --- !u!4 &1659172005 stripped
@@ -41607,6 +42782,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BuildingBaseDam_03 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 121b4caf4b0677847a88c50bde3cc858,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 121b4caf4b0677847a88c50bde3cc858, type: 3}
@@ -42063,6 +43243,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cobblestone_03
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f61a1bf6918c8a44c96c11be2a295a7c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f61a1bf6918c8a44c96c11be2a295a7c, type: 3}
 --- !u!4 &1688856088 stripped
@@ -42253,6 +43438,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vines 02 (44)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6486070993c6a2e4bb076f5821ee20c1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6486070993c6a2e4bb076f5821ee20c1, type: 3}
 --- !u!4 &1691872695 stripped
@@ -42337,6 +43527,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cobblestone_01 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b92f9b24f13ea8d41ab3ce148171d80f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b92f9b24f13ea8d41ab3ce148171d80f, type: 3}
@@ -42507,6 +43702,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: drain pipe ring (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 98cef50b43518d642bab58aa631212a8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98cef50b43518d642bab58aa631212a8, type: 3}
@@ -42727,7 +43927,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1715796878
 Transform:
@@ -43052,6 +44252,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Window01_Nice (39)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b0cefb166d3772947918799e25d774b1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0cefb166d3772947918799e25d774b1, type: 3}
 --- !u!4 &1728337382 stripped
@@ -43206,7 +44411,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1744671500
 Transform:
@@ -43480,6 +44685,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cobblestone_05 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 7305da2ddf011fc4581d17d6ee199745,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7305da2ddf011fc4581d17d6ee199745, type: 3}
 --- !u!4 &1745369799 stripped
@@ -43740,6 +44950,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BuildingMiddleDam_03 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 40f78e02cc1207b458be10d83392268f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 40f78e02cc1207b458be10d83392268f, type: 3}
 --- !u!4 &1756644932 stripped
@@ -43910,6 +45125,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cobblestone_07
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 658e93d01a04cb448add2efffe71c2a5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 658e93d01a04cb448add2efffe71c2a5, type: 3}
 --- !u!4 &1767215300 stripped
@@ -44069,6 +45289,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cobblestone_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b92f9b24f13ea8d41ab3ce148171d80f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b92f9b24f13ea8d41ab3ce148171d80f, type: 3}
@@ -44454,7 +45679,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1790346153
 Transform:
@@ -44704,6 +45929,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building03_Base_Nice (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: cefabbef76534e7428165d423d4b5afa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cefabbef76534e7428165d423d4b5afa, type: 3}
 --- !u!1001 &1816755847
@@ -44873,6 +46103,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cobblestone_01 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b92f9b24f13ea8d41ab3ce148171d80f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b92f9b24f13ea8d41ab3ce148171d80f, type: 3}
 --- !u!4 &1817181353 stripped
@@ -44952,6 +46187,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: drain pipe ring (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 98cef50b43518d642bab58aa631212a8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98cef50b43518d642bab58aa631212a8, type: 3}
@@ -45127,6 +46367,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cobblestone_07 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 658e93d01a04cb448add2efffe71c2a5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 658e93d01a04cb448add2efffe71c2a5, type: 3}
@@ -45783,6 +47028,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: drain pipe ring
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 98cef50b43518d642bab58aa631212a8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98cef50b43518d642bab58aa631212a8, type: 3}
 --- !u!4 &1829200359 stripped
@@ -45947,6 +47197,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: drain pipe ring (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 98cef50b43518d642bab58aa631212a8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98cef50b43518d642bab58aa631212a8, type: 3}
@@ -46288,6 +47543,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cobblestone_01 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b92f9b24f13ea8d41ab3ce148171d80f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b92f9b24f13ea8d41ab3ce148171d80f, type: 3}
 --- !u!4 &1861323556 stripped
@@ -46382,6 +47642,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Rock_03 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 04951dbde96886247876951b477caff0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04951dbde96886247876951b477caff0, type: 3}
@@ -46492,7 +47757,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1870068752
 Transform:
@@ -46642,6 +47907,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock_03 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 04951dbde96886247876951b477caff0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04951dbde96886247876951b477caff0, type: 3}
 --- !u!4 &1876434997 stripped
@@ -46666,7 +47936,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1890698127
 Transform:
@@ -46816,6 +48086,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock_03 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 04951dbde96886247876951b477caff0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04951dbde96886247876951b477caff0, type: 3}
 --- !u!4 &1893734033 stripped
@@ -46840,7 +48115,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1894062230
 Transform:
@@ -46919,7 +48194,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1895222171
 Transform:
@@ -47054,6 +48329,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BuildingMiddleDam_03 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 40f78e02cc1207b458be10d83392268f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 40f78e02cc1207b458be10d83392268f, type: 3}
 --- !u!4 &1903599219 stripped
@@ -47138,6 +48418,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Roof gutter (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 99e4d4ced9373e0419c027a7281c5e73,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99e4d4ced9373e0419c027a7281c5e73, type: 3}
@@ -47228,6 +48513,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Rock_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f6915f789db5c1b409f7287127e32c5e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6915f789db5c1b409f7287127e32c5e, type: 3}
@@ -47324,6 +48614,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock_03 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 04951dbde96886247876951b477caff0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04951dbde96886247876951b477caff0, type: 3}
 --- !u!4 &1910402322 stripped
@@ -47346,7 +48641,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1914711474
 Transform:
@@ -47556,7 +48851,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1917064633
 Transform:
@@ -47771,6 +49066,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cobblestone_07 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 658e93d01a04cb448add2efffe71c2a5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 658e93d01a04cb448add2efffe71c2a5, type: 3}
 --- !u!4 &1921063505 stripped
@@ -47846,6 +49146,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cobblestone_01 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b92f9b24f13ea8d41ab3ce148171d80f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b92f9b24f13ea8d41ab3ce148171d80f, type: 3}
 --- !u!4 &1922651446 stripped
@@ -47920,6 +49225,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cobblestone_04
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 8f914800ba0a34e4d91b653ad61b768f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f914800ba0a34e4d91b653ad61b768f, type: 3}
@@ -48201,6 +49511,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building01_Top_Nice
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 3665bc9ec198eef4c98db8a05d9b9239,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3665bc9ec198eef4c98db8a05d9b9239, type: 3}
 --- !u!4 &1957417288 stripped
@@ -48320,7 +49635,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1960421855
 Transform:
@@ -49099,6 +50414,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vines 01 (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 3251865710536392729, guid: 0c7c4b6abd498bf4bb48ff284b5e59eb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c7c4b6abd498bf4bb48ff284b5e59eb, type: 3}
 --- !u!4 &2004410682 stripped
@@ -49123,7 +50443,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2004738136
 Transform:
@@ -49343,6 +50663,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Roof gutter (13)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 99e4d4ced9373e0419c027a7281c5e73,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99e4d4ced9373e0419c027a7281c5e73, type: 3}
 --- !u!4 &2006440127 stripped
@@ -49533,6 +50858,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Window03_Nice (4)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 474f3a1c371d72b458255bc71ee45f48,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 474f3a1c371d72b458255bc71ee45f48, type: 3}
 --- !u!4 &2014476251 stripped
@@ -49698,6 +51028,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: drain pipe ring
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 98cef50b43518d642bab58aa631212a8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98cef50b43518d642bab58aa631212a8, type: 3}
 --- !u!4 &2049102098 stripped
@@ -49793,6 +51128,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Window03_Nice (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 474f3a1c371d72b458255bc71ee45f48,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 474f3a1c371d72b458255bc71ee45f48, type: 3}
 --- !u!4 &2055471747 stripped
@@ -49817,7 +51157,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2056066603
 Transform:
@@ -50061,6 +51401,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Building01_Base_Nice (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 08996ce18d58e214fa703f16e0da7e31,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08996ce18d58e214fa703f16e0da7e31, type: 3}
@@ -50447,6 +51792,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Window03_Nice (38)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 474f3a1c371d72b458255bc71ee45f48,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 474f3a1c371d72b458255bc71ee45f48, type: 3}
 --- !u!4 &2091860005 stripped
@@ -50571,7 +51921,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2096418278
 Transform:
@@ -50745,7 +52095,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2099842447
 Transform:
@@ -50880,6 +52230,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Window01_Nice (10)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b0cefb166d3772947918799e25d774b1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0cefb166d3772947918799e25d774b1, type: 3}
 --- !u!4 &2108325614 stripped
@@ -50975,6 +52330,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock_01 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f6915f789db5c1b409f7287127e32c5e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6915f789db5c1b409f7287127e32c5e, type: 3}
 --- !u!4 &2108373655 stripped
@@ -51064,6 +52424,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Building01_Base_Nice (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 08996ce18d58e214fa703f16e0da7e31,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08996ce18d58e214fa703f16e0da7e31, type: 3}
@@ -51160,6 +52525,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock_03 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 04951dbde96886247876951b477caff0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04951dbde96886247876951b477caff0, type: 3}
 --- !u!4 &2131057993 stripped
@@ -51244,6 +52614,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Drain pipe module 02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: dfb42f623129a054c9918619ac4e1e15,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfb42f623129a054c9918619ac4e1e15, type: 3}
