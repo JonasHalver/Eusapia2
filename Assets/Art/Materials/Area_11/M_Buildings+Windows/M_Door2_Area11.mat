@@ -236,7 +236,7 @@ Material:
     - Color_31A45CC8: {r: 0, g: 0, b: 0, a: 0}
     - Color_3E01F68D: {r: 1, g: 1, b: 1, a: 0}
     - Color_6B35025A: {r: 0.48235294, g: 0.6862745, b: 0.6862745, a: 0}
-    - Color_FB42EA15: {r: 0, g: 0, b: 0.5686275, a: 0}
+    - Color_FB42EA15: {r: 0.79607844, g: 0.92941177, b: 0.93333334, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
