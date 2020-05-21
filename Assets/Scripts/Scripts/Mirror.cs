@@ -31,9 +31,11 @@ public class Mirror : MonoBehaviour
     Transform deadWorld, livingWorld;
 
     public event Action OnTeleport;
-    public LayerMask mirrorMask;
+    public LayerMask mirrorMask, notMirrorMask;
 
     List<Renderer> hiddenRenderers = new List<Renderer>();
+    private Vector3[] corners = new Vector3[8];
+    public bool isRendering;
 
     void Awake()
     { 
@@ -105,6 +107,7 @@ public class Mirror : MonoBehaviour
         }
 
         PortalMovement.instance.onTeleportSuccess += TeleportSuccess;
+        FindCorners();
     }
 
     void LateUpdate()
@@ -125,6 +128,34 @@ public class Mirror : MonoBehaviour
         {
             ConfirmCameraBlock();
         }
+
+        
+    }
+
+    public void FindCorners()
+    {
+        Vector3 c1, c2, c3, c4, c5, c6, c7, c8;
+        BoxCollider box = linkedMirror.GetComponent<BoxCollider>();
+        corners[0] = c1 = box.bounds.min;
+        corners[1] = c2 = box.bounds.max;
+        corners[2] = c3 = new Vector3(c1.x, c1.y, c2.z);
+        corners[3] = c4 = new Vector3(c1.x, c2.y, c1.z);
+        corners[4] = c5 = new Vector3(c2.x, c1.y, c1.z);
+        corners[5] = c6 = new Vector3(c1.x, c2.y, c2.z);
+        corners[6] = c7 = new Vector3(c2.x, c1.y, c2.z);
+        corners[7] = c8 = new Vector3(c2.x, c2.y, c1.z);
+    }
+
+    void OnDrawGizmos()
+    {
+        //Gizmos.color = Color.red;
+        //
+        //
+        //for (int i = 0; i < corners.Length; i++)
+        //{
+        //    Gizmos.DrawLine(corners[i], corners[i != 7 ? i + 1 : 0]);
+        //    Gizmos.DrawWireSphere(corners[i], 0.1f);
+        //}
     }
 
     public void ConfirmCameraBlock()
@@ -237,7 +268,25 @@ public class Mirror : MonoBehaviour
     public bool VisibleFromCamera(Renderer renderer, Camera camera)
     {
         Plane[] frustrumPlanes = GeometryUtility.CalculateFrustumPlanes(camera);
-        return GeometryUtility.TestPlanesAABB(frustrumPlanes, renderer.bounds);
+
+        bool flag = false;
+
+        if (GeometryUtility.TestPlanesAABB(frustrumPlanes, renderer.bounds))
+        {
+            foreach (Vector3 c in corners)
+            {
+                Vector3 dir = (c - camera.transform.position).normalized;
+                float dst = Vector3.Distance(c, camera.transform.position);
+                flag = !Physics.Raycast(camera.transform.position, dir, dst, notMirrorMask);
+                Debug.DrawLine(camera.transform.position, c);
+                if (flag)
+                    break;
+            }
+        }
+
+        linkedMirror.isRendering = flag;
+
+        return flag;
     }
 
     public void Render()
