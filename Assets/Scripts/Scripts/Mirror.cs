@@ -5,6 +5,8 @@ using System;
 
 public class Mirror : MonoBehaviour
 {
+    public float rotationOffset = 0;
+
     public static List<Mirror> mirrors = new List<Mirror>();
     public int mirrorIndex;
 
@@ -251,6 +253,8 @@ public class Mirror : MonoBehaviour
                 new Vector3(playerCam.transform.rotation.eulerAngles.x,
                 playerCam.transform.rotation.eulerAngles.y,
                 playerCam.transform.rotation.eulerAngles.z));
+
+            mirrorCam.transform.parent.localRotation = Quaternion.Euler(0, rotationOffset, 0);
 
             playerToMirror = (playerCam.transform.position - linkedMirror.transform.position);
 

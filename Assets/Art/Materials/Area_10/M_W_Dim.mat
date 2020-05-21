@@ -19,10 +19,10 @@ Material:
     MotionVector: User
   disabledShaderPasses:
   - DistortionVectors
-  - MOTIONVECTORS
   - TransparentDepthPrepass
   - TransparentDepthPostpass
   - TransparentBackface
+  - MOTIONVECTORS
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -233,10 +233,10 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
-    - Color_31A45CC8: {r: 55.06544, g: 52.182434, b: 30.848179, a: 0}
+    - Color_31A45CC8: {r: 54.605804, g: 51.64687, b: 30.12734, a: 0}
     - Color_3E01F68D: {r: 0.6901961, g: 0.6, b: 0.6, a: 0}
-    - Color_6B35025A: {r: 0.7607843, g: 0.7607843, b: 0.7607843, a: 0}
-    - Color_FB42EA15: {r: 0, g: 0, b: 0, a: 0}
+    - Color_6B35025A: {r: 0.32941172, g: 0.25882348, b: 0.25490192, a: 0}
+    - Color_FB42EA15: {r: 0.30188674, g: 0.23495904, b: 0.23495904, a: 1}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
@@ -253,7 +253,7 @@ Material:
     - _UVDetailsMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMaskEmissive: {r: 1, g: 0, b: 0, a: 0}
---- !u!114 &974277522885583662
+--- !u!114 &1053193821394186773
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
