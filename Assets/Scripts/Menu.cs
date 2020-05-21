@@ -28,6 +28,6 @@ public class Menu : MonoBehaviour
 
     public void NextScene()
     {
-
+        SceneManager.LoadScene(1);
     }
 }
