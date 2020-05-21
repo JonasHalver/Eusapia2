@@ -51,23 +51,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24f077503be6ae942a1e1245dbd53ea9, type: 3}
   m_Name: Bloom
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   m_AdvancedMode: 0
   quality:
     m_OverrideState: 1
     m_Value: 1
   threshold:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 0.1
     min: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0.24
+    m_Value: 0.622
     min: 0
     max: 1
   scatter:
     m_OverrideState: 0
-    m_Value: 0.7
+    m_Value: 0.58
     min: 0
     max: 1
   tint:
@@ -189,6 +189,7 @@ MonoBehaviour:
   - {fileID: -8263964860682486399}
   - {fileID: 5814905415014816606}
   - {fileID: 3691198200597427340}
+  - {fileID: 6183329162652194331}
 --- !u!114 &3691198200597427340
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -209,11 +210,11 @@ MonoBehaviour:
     min: 0
     max: 360
   skyIntensityMode:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   exposure:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 0.5
   multiplier:
     m_OverrideState: 0
     m_Value: 1
@@ -240,19 +241,19 @@ MonoBehaviour:
     m_Value: 0
   top:
     m_OverrideState: 1
-    m_Value: {r: 0.47353154, g: 0.66538745, b: 0.83879924, a: 1}
+    m_Value: {r: 4.171407, g: 5.870869, b: 7.3772106, a: 1}
     hdr: 1
     showAlpha: 0
     showEyeDropper: 1
   middle:
     m_OverrideState: 1
-    m_Value: {r: 0.009134057, g: 0.088655606, b: 0.10224175, a: 1}
+    m_Value: {r: 0.08873497, g: 1.0204521, b: 1.1535546, a: 1}
     hdr: 1
     showAlpha: 0
     showEyeDropper: 1
   bottom:
     m_OverrideState: 1
-    m_Value: {r: 0.0056053917, g: 0.011612245, b: 0.038204376, a: 1}
+    m_Value: {r: 0.007843138, g: 0.023529412, b: 0.078431375, a: 1}
     hdr: 1
     showAlpha: 0
     showEyeDropper: 1
@@ -351,6 +352,96 @@ MonoBehaviour:
     m_Value: 2
     min: 1
     max: 6
+--- !u!114 &6183329162652194331
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 953beb541740ddc499d005ee80c9ff29, type: 3}
+  m_Name: Fog
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  enabled:
+    m_OverrideState: 1
+    m_Value: 1
+  colorMode:
+    m_OverrideState: 1
+    m_Value: 1
+  color:
+    m_OverrideState: 0
+    m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    hdr: 1
+    showAlpha: 0
+    showEyeDropper: 1
+  tint:
+    m_OverrideState: 0
+    m_Value: {r: 0.49065503, g: 0.6981132, b: 0.5955251, a: 1}
+    hdr: 1
+    showAlpha: 0
+    showEyeDropper: 1
+  maxFogDistance:
+    m_OverrideState: 1
+    m_Value: 400
+    min: 0
+  mipFogMaxMip:
+    m_OverrideState: 0
+    m_Value: 0.5
+    min: 0
+    max: 1
+  mipFogNear:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+  mipFogFar:
+    m_OverrideState: 0
+    m_Value: 1000
+    min: 0
+  baseHeight:
+    m_OverrideState: 1
+    m_Value: -2
+  maximumHeight:
+    m_OverrideState: 0
+    m_Value: 1004
+  albedo:
+    m_OverrideState: 1
+    m_Value: {r: 0.4199893, g: 0.735849, b: 0.6483976, a: 1}
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1
+  meanFreePath:
+    m_OverrideState: 1
+    m_Value: 10
+    min: 1
+  enableVolumetricFog:
+    m_OverrideState: 1
+    m_Value: 1
+  anisotropy:
+    m_OverrideState: 1
+    m_Value: 0
+    min: -1
+    max: 1
+  globalLightProbeDimmer:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+    max: 1
+  depthExtent:
+    m_OverrideState: 0
+    m_Value: 64
+    min: 0.1
+  sliceDistributionUniformity:
+    m_OverrideState: 0
+    m_Value: 0.75
+    min: 0
+    max: 1
+  filter:
+    m_OverrideState: 0
+    m_Value: 0
 --- !u!114 &7098854319019188298
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -411,11 +502,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d08ce26990eb1a4a9177b860541e702, type: 3}
   m_Name: Exposure
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   m_AdvancedMode: 0
   mode:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   meteringMode:
     m_OverrideState: 1
     m_Value: 2
@@ -424,7 +515,7 @@ MonoBehaviour:
     m_Value: 1
   fixedExposure:
     m_OverrideState: 1
-    m_Value: 5
+    m_Value: 6
   compensation:
     m_OverrideState: 0
     m_Value: 0
