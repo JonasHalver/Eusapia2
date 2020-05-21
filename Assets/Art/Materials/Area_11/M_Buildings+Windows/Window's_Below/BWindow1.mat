@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_Window3_Below_Area11
+  m_Name: BWindow1
   m_Shader: {fileID: -6465566751694194690, guid: db3498254d7d2b44bb8679b3ab1abef2,
     type: 3}
   m_ShaderKeywords: 
@@ -233,10 +233,10 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
-    - Color_31A45CC8: {r: 683.5601, g: 683.5601, b: 683.5601, a: 0}
+    - Color_31A45CC8: {r: 205.51157, g: 194.7518, b: 115.12952, a: 0}
     - Color_3E01F68D: {r: 0.89411765, g: 0.8352941, b: 0.8117647, a: 0}
-    - Color_6B35025A: {r: 0.9490196, g: 0.8, b: 0.95686275, a: 0}
-    - Color_FB42EA15: {r: 0.79607844, g: 0.92941177, b: 0.93333334, a: 0}
+    - Color_6B35025A: {r: 0.23921564, g: 0.31372547, b: 0.11764703, a: 0}
+    - Color_FB42EA15: {r: 0.79607844, g: 0.92941177, b: 0.93333334, a: 1}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
@@ -253,7 +253,7 @@ Material:
     - _UVDetailsMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMaskEmissive: {r: 1, g: 0, b: 0, a: 0}
---- !u!114 &5243589347214100750
+--- !u!114 &4514783125981077402
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
