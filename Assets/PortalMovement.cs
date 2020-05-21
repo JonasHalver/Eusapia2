@@ -62,7 +62,7 @@ public class PortalMovement : MonoBehaviour
         }
         modifiedSpeed = curve.Evaluate(t) * speed;
         pc.canMove = false;
-        PlayerController.player.GetComponent<Collider>().enabled = false;
+        //PlayerController.player.GetComponent<Collider>().enabled = false;
         PlayerController.player.GetComponent<Rigidbody>().isKinematic = true;
 
         float angleToRotate = 180 * (Time.deltaTime * modifiedSpeed);
@@ -74,7 +74,7 @@ public class PortalMovement : MonoBehaviour
         if (t >= 1 || totalRot >= 180)
         {
             moving = false; pc.canMove = true;
-            PlayerController.player.GetComponent<Collider>().enabled = true;
+            //PlayerController.player.GetComponent<Collider>().enabled = true;
             PlayerController.player.GetComponent<Rigidbody>().isKinematic = false;
             startedMove = false;
             SmoothMouseLook.portalOverride = false;
@@ -85,5 +85,6 @@ public class PortalMovement : MonoBehaviour
     public void TeleportSuccess()
     {
         pc.transform.Rotate(new Vector3(0, 180, 180));
+        print("success");
     }
 }
