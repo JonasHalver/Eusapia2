@@ -45,6 +45,7 @@ public class SmoothMouseLook : MonoBehaviour
 
     public bool lookatOverride = false;
     public Transform lookatTransform;
+    public Transform fakeCamTransform;
     public float lookatZoom;
 
     public static bool portalOverride = false;
@@ -73,12 +74,14 @@ public class SmoothMouseLook : MonoBehaviour
 
         if (lookatOverride)
         {
-            float y = cam.transform.localPosition.y;
-            if (dist < 1.1f)
-            {
-                y += 2 * Time.deltaTime;
-            }
-            cam.transform.localPosition = new Vector3(0.75f, y, Mathf.Lerp(cam.transform.localPosition.z, -lookatZoom, 2 * Time.deltaTime));
+            if (Vector3.Distance(cam.transform.position, fakeCamTransform.position) > 0.1f)
+                cam.transform.position = Vector3.Lerp(cam.transform.position, fakeCamTransform.position, 2 * Time.deltaTime);
+            //float y = cam.transform.localPosition.y;
+            //if (dist < 1.1f)
+            //{
+            //    y += 2 * Time.deltaTime;
+            //}
+            //cam.transform.localPosition = new Vector3(0.75f, y, Mathf.Lerp(cam.transform.localPosition.z, -lookatZoom, 2 * Time.deltaTime));
         }
 
         if (!lookatOverride && !portalOverride)
@@ -223,7 +226,7 @@ public class SmoothMouseLook : MonoBehaviour
             //cam.transform.LookAt(lookatTransform);
 
             Vector3 dirToObj = (lookatTransform.position-cam.transform.position).normalized;
-            dirToObj.y = 0;
+            //dirToObj.y = 0;
 
             cam.transform.rotation = Quaternion.RotateTowards(cam.transform.rotation, Quaternion.LookRotation(dirToObj,Vector3.up), 15 * Time.deltaTime);
         }

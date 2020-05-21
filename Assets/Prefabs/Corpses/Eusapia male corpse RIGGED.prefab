@@ -285,7 +285,6 @@ GameObject:
   - component: {fileID: 6473367756974354505}
   - component: {fileID: 7199011516060267854}
   - component: {fileID: 8921462434220274218}
-  - component: {fileID: 8921462434220274217}
   m_Layer: 0
   m_Name: Male Corpse
   m_TagString: Untagged
@@ -425,19 +424,6 @@ SkinnedMeshRenderer:
     m_Extent: {x: 1.6109737, y: 1.80267, z: 0.3940041}
   m_DirtyAABB: 0
 --- !u!114 &8921462434220274218
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1376089494202671767}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45aa3f4b4baa7414099a1203a471e4f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isVisible: 0
---- !u!114 &8921462434220274217
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
