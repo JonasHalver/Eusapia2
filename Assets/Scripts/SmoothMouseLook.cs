@@ -62,6 +62,7 @@ public class SmoothMouseLook : MonoBehaviour
             Vector3 resetPos = transform.TransformPoint(new Vector3(0, cam.transform.localPosition.y, cam.transform.localPosition.z));
             Vector3 fakePoint = new Vector3(resetPos.x, player.transform.position.y, resetPos.z);
             player.camForward = Vector3.Scale(transform.forward, new Vector3(1,0,1)); //(player.transform.position - fakePoint).normalized;
+            player.camRight = Vector3.Scale(transform.right, new Vector3(1, 0, 1));
             //Debug.DrawLine(player.transform.position, player.transform.position + transform.forward * 3, Color.red);
         }
 
