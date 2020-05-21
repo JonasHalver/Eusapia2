@@ -58,11 +58,11 @@ MonoBehaviour:
     m_Value: 1
   threshold:
     m_OverrideState: 1
-    m_Value: 0.2
+    m_Value: 0.4
     min: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0.361
+    m_Value: 0.595
     min: 0
     max: 1
   scatter:
@@ -205,26 +205,26 @@ MonoBehaviour:
   m_AdvancedMode: 0
   rotation:
     m_OverrideState: 1
-    m_Value: 217
+    m_Value: 219
     min: 0
     max: 360
   skyIntensityMode:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   exposure:
     m_OverrideState: 1
-    m_Value: 6
+    m_Value: 4.6
   multiplier:
     m_OverrideState: 0
     m_Value: 1
     min: 0
   upperHemisphereLuxValue:
     m_OverrideState: 0
-    m_Value: 5.661041
+    m_Value: 2.0518913
     min: 0
   upperHemisphereLuxColor:
     m_OverrideState: 0
-    m_Value: {x: 0.4765615, y: 0.48013535, z: 0.5}
+    m_Value: {x: 0.5, y: 0.48694813, z: 0.46619147}
   desiredLuxValue:
     m_OverrideState: 0
     m_Value: 20000
@@ -436,7 +436,7 @@ MonoBehaviour:
     m_Value: 0
   maximumHeight:
     m_OverrideState: 1
-    m_Value: 100
+    m_Value: 1000
   albedo:
     m_OverrideState: 0
     m_Value: {r: 1, g: 1, b: 1, a: 1}
@@ -445,7 +445,7 @@ MonoBehaviour:
     showEyeDropper: 1
   meanFreePath:
     m_OverrideState: 1
-    m_Value: 500
+    m_Value: 600
     min: 1
   enableVolumetricFog:
     m_OverrideState: 0
