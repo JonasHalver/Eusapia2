@@ -44,6 +44,21 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6171401537422650191, guid: 86d6268ea21b18a408e0970fe4a36df6,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 1.1000534e-10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6171401537422650191, guid: 86d6268ea21b18a408e0970fe4a36df6,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.008215318
+      objectReference: {fileID: 0}
+    - target: {fileID: 6171401537422650191, guid: 86d6268ea21b18a408e0970fe4a36df6,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: -0.000000006053596
+      objectReference: {fileID: 0}
     - target: {fileID: 7194571260917272858, guid: 86d6268ea21b18a408e0970fe4a36df6,
         type: 3}
       propertyPath: m_Name
@@ -200,6 +215,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camera
+      objectReference: {fileID: 0}
+    - target: {fileID: 8778981131539731558, guid: d19c3f2efe264e64682674383452b055,
+        type: 3}
+      propertyPath: m_TagString
+      value: MainCamera
       objectReference: {fileID: 0}
     - target: {fileID: 8778981131539731563, guid: d19c3f2efe264e64682674383452b055,
         type: 3}
