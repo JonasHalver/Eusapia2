@@ -72,7 +72,6 @@ public class SmoothMouseLook : MonoBehaviour
 
         if (lookatOverride)
         {
-            print(dist);
             float y = cam.transform.localPosition.y;
             if (dist < 1.1f)
             {
