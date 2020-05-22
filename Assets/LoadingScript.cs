@@ -2,27 +2,31 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
-public class Menu : MonoBehaviour
+public class LoadingScript : MonoBehaviour
 {
+    public Slider bar;
+    public Text text;
+    public Button start;
+    public bool startPressed;
 
-    public GameObject character;
-
-    // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine("LoadMenu");
+        StartCoroutine("Loading");
+
     }
 
-    IEnumerator LoadMenu()
+    IEnumerator Loading()
     {
         yield return null;
 
-        AsyncOperation load1 = SceneManager.LoadSceneAsync(11, LoadSceneMode.Additive);
+        AsyncOperation load1 = SceneManager.LoadSceneAsync(1, LoadSceneMode.Additive);
         load1.allowSceneActivation = false;
         while (!load1.isDone)
         {
-
+            bar.value = load1.progress;
+            text.text = "Main Scene";
             if (load1.progress >= 0.9f)
                 break;
             yield return null;
@@ -33,7 +37,8 @@ public class Menu : MonoBehaviour
         load2.allowSceneActivation = false;
         while (!load2.isDone)
         {
-
+            bar.value = load2.progress;
+            text.text = "Buildings";
             if (load2.progress >= 0.9f)
                 break;
             yield return null;
@@ -44,7 +49,8 @@ public class Menu : MonoBehaviour
         load3.allowSceneActivation = false;
         while (!load3.isDone)
         {
-
+            bar.value = load3.progress;
+            text.text = "Lights";
             if (load3.progress >= 0.9f)
                 break;
             yield return null;
@@ -55,7 +61,8 @@ public class Menu : MonoBehaviour
         load4.allowSceneActivation = false;
         while (!load4.isDone)
         {
-
+            bar.value = load4.progress;
+            text.text = "Underworld";
             if (load4.progress >= 0.9f)
                 break;
             yield return null;
@@ -66,7 +73,8 @@ public class Menu : MonoBehaviour
         load5.allowSceneActivation = false;
         while (!load5.isDone)
         {
-
+            bar.value = load5.progress;
+            text.text = "Fog";
             if (load5.progress >= 0.9f)
                 break;
             yield return null;
@@ -77,7 +85,8 @@ public class Menu : MonoBehaviour
         load6.allowSceneActivation = false;
         while (!load6.isDone)
         {
-
+            bar.value = load6.progress;
+            text.text = "Dead People";
             if (load6.progress >= 0.9f)
                 break;
             yield return null;
@@ -88,6 +97,8 @@ public class Menu : MonoBehaviour
         load7.allowSceneActivation = false;
         while (!load7.isDone)
         {
+            bar.value = load7.progress;
+            text.text = "Mirrors";
             if (load7.progress >= 0.9f)
                 break;
             yield return null;
@@ -98,7 +109,8 @@ public class Menu : MonoBehaviour
         load8.allowSceneActivation = false;
         while (!load8.isDone)
         {
-
+            bar.value = load8.progress;
+            text.text = "Pretty Objects";
             if (load8.progress >= 0.9f)
                 break;
             yield return null;
@@ -108,41 +120,51 @@ public class Menu : MonoBehaviour
         AsyncOperation load9 = SceneManager.LoadSceneAsync(9, LoadSceneMode.Additive);
         load9.allowSceneActivation = false;
         while (!load9.isDone)
-        {   
+        {
+            bar.value = load9.progress;
+            text.text = "Eusapia";
             if (load5.progress >= 0.9f)
                 break;
             yield return null;
         }
         yield return null;
 
-        load1.allowSceneActivation = true;
-        load2.allowSceneActivation = true;
-        load3.allowSceneActivation = true;
-        load3.allowSceneActivation = true;
-        load4.allowSceneActivation = true;
-        load5.allowSceneActivation = true;
-        load6.allowSceneActivation = true;
-        load7.allowSceneActivation = true;
-        load8.allowSceneActivation = true;
-        load9.allowSceneActivation = true;
+        start.gameObject.SetActive(true);
 
-        GetComponent<Animator>().SetTrigger("Loaded");
+        while (!startPressed)
+        {
+            yield return null;
+        }
+        if (startPressed)
+        {
+            load1.allowSceneActivation = true;
+            while (!load1.isDone)
+                yield return null;
+
+            Scene loadingscene = SceneManager.GetActiveScene();
+            AsyncOperation unload = SceneManager.UnloadSceneAsync(loadingscene);
+            yield return null;
+            print(unload.isDone);
+
+            //unload.allowSceneActivation = true;
+            //load1.allowSceneActivation = true;
+            load2.allowSceneActivation = true;
+            load3.allowSceneActivation = true;
+            load3.allowSceneActivation = true;
+            load4.allowSceneActivation = true;
+            load5.allowSceneActivation = true;
+            load6.allowSceneActivation = true;
+            load7.allowSceneActivation = true;
+            load8.allowSceneActivation = true;
+            load9.allowSceneActivation = true;
+
+            Scene main = SceneManager.GetSceneAt(1);
+            SceneManager.SetActiveScene(main);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ButtonPress()
     {
-        
-    }
-
-    public void Play()
-    {
-        GetComponent<Animator>().SetTrigger("Play");
-        character.GetComponent<Animator>().SetTrigger("Play");
-    }
-
-    public void NextScene()
-    {
-        SceneManager.LoadScene(10);
+        startPressed = true;
     }
 }
