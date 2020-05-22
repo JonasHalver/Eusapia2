@@ -5,10 +5,34 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/samplescene.unity
-    guid: cbfe36cfddfde964d9dfce63a355d5dd
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: c13ee3269dccf2b4cb7b7f4476e360ca
+  - enabled: 1
+    path: Assets/Scenes/MasterLayout/MasterLayout.unity
+    guid: 60fb01aa0a51c8140b2322bb2822517c
+  - enabled: 1
+    path: Assets/Scenes/CityAbove/Juan_02_Above.unity
+    guid: 86805caa48a6ecc4a9eda8de3a1736f1
+  - enabled: 1
+    path: Assets/Scenes/CityAbove/Daisy_08_Above.unity
+    guid: 92e43e0190c8dea45b6450524160d3cc
+  - enabled: 1
+    path: Assets/Scenes/CityAbove/Simon_11_Above.unity
+    guid: 9253e661b8c85d44d849a52c17b7394a
+  - enabled: 1
+    path: Assets/Scenes/CityAbove/Johannes_12_Above.unity
+    guid: 0d841af366477f14b9c5351b89cfed5f
+  - enabled: 1
+    path: Assets/Scenes/CityAbove/Juan_EnvLighting_Above.unity
+    guid: 990f5f9199d1d4742ba8d2fa4f3259f2
+  - enabled: 1
+    path: Assets/Scenes/CityBelow/Jesper_Corpses_Below.unity
+    guid: 26a3c79d59417c04c803ac310aec17fd
+  - enabled: 1
+    path: Assets/Scenes/CityBelow/Juan_EnvLighting_Below.unity
+    guid: e37896f25d8a93c4b867839208fd6e30
+  - enabled: 1
+    path: Assets/Scenes/CityAbove/Daisy_05_Above.unity
+    guid: b6e3775e652156e4990559d24aae4ae6
   m_configObjects: {}
