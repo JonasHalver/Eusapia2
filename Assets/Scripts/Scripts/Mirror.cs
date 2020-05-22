@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using System;
 
 public class Mirror : MonoBehaviour
@@ -40,40 +41,43 @@ public class Mirror : MonoBehaviour
     public bool isRendering;
 
     void Awake()
-    { 
-        if (isPortal)
+    {
+        if (SceneManager.GetActiveScene() != SceneManager.GetSceneByBuildIndex(0))
         {
+            if (isPortal)
+            {
+                if (currentWorld == World.Living)
+                {
+                    portal1 = this;
+                }
+                else
+                {
+                    portal2 = this;
+                }
+            }
+            if (!mirrors.Contains(this))
+            {
+                mirrors.Add(this);
+            }
+
+            deadWorld = GameObject.FindGameObjectWithTag("DeadWorld").transform;
+            livingWorld = GameObject.FindGameObjectWithTag("LivingWorld").transform;
+
+            screen = GetComponent<MeshRenderer>();
+
+            if (!playerCam)
+                playerCam = Camera.main;
+
+            c = mirrorCam.GetComponent<MirrorCameraController>();
+
             if (currentWorld == World.Living)
             {
-                portal1 = this;
+                player = PlayerController.player;
             }
             else
             {
-                portal2 = this;
+                player = MirrorManController.mirrorMan;
             }
-        }
-        if (!mirrors.Contains(this))
-        {
-            mirrors.Add(this);
-        }
-
-        deadWorld = GameObject.FindGameObjectWithTag("DeadWorld").transform;
-        livingWorld = GameObject.FindGameObjectWithTag("LivingWorld").transform;
-
-        screen = GetComponent<MeshRenderer>();
-
-        if (!playerCam)
-            playerCam = Camera.main;
-
-        c = mirrorCam.GetComponent<MirrorCameraController>();
-
-        if (currentWorld == World.Living)
-        {
-            player = PlayerController.player;
-        }
-        else
-        {
-            player = MirrorManController.mirrorMan;
         }
     }
 
